@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by aimeeborda on 10/11/2016.
- */
 public class DuplicatesTest {
 
     Duplicates d ;
