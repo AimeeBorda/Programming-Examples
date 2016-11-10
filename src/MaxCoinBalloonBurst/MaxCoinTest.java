@@ -37,6 +37,6 @@ public class MaxCoinTest {
     @Test
     public void test5(){
         //21 64 76 97 9 60
-        assertEquals("[9,76,64,21,97,60]",  1086136,coin.maxCoins(new int[]{9, 76, 64, 21, 97, 60}));
+        assertEquals("[9,76,64,21,9 7,60]",  1086136,coin.maxCoins(new int[]{9, 76, 64, 21, 97, 60}));
     }
 }
