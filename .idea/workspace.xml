@@ -4,8 +4,6 @@
     <list default="true" id="580c7af9-e758-4bc0-a6f2-d32a173fae69" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CakeThief/CakeThief.java" afterPath="$PROJECT_DIR$/src/CakeThief/CakeThief.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java" afterPath="$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/Traversal.java" afterPath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/Traversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/TraversalTest.java" afterPath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/TraversalTest.java" />
     </list>
     <ignored path="Assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MaxCoin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxCoin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -65,14 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CakeThief.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CakeThief.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThief.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.26918393">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#718#736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,10 +167,10 @@
         <option value="$PROJECT_DIR$/src/CakeThief/Pair.java" />
         <option value="$PROJECT_DIR$/src/reverseKGroup/ReverseKGroup.java" />
         <option value="$PROJECT_DIR$/src/reverseKGroup/ReverseKGroupTest.java" />
-        <option value="$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java" />
-        <option value="$PROJECT_DIR$/src/CakeThief/CakeThief.java" />
         <option value="$PROJECT_DIR$/src/LevelOrderTreeTraversal/TraversalTest.java" />
         <option value="$PROJECT_DIR$/src/LevelOrderTreeTraversal/Traversal.java" />
+        <option value="$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java" />
+        <option value="$PROJECT_DIR$/src/CakeThief/CakeThief.java" />
       </list>
     </option>
   </component>
@@ -478,7 +475,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TraversalTest.testIsBST">
+  <component name="RunManager" selected="JUnit.CakeThiefTest.testSort">
     <configuration default="false" name="CakeThiefTest.testExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -492,32 +489,6 @@
       <option name="PACKAGE_NAME" value="CakeThief" />
       <option name="MAIN_CLASS_NAME" value="CakeThief.CakeThiefTest" />
       <option name="METHOD_NAME" value="testExample" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TraversalTest.testRootToLeaves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LevelOrderTreeTraversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="LevelOrderTreeTraversal" />
-      <option name="MAIN_CLASS_NAME" value="LevelOrderTreeTraversal.TraversalTest" />
-      <option name="METHOD_NAME" value="testRootToLeaves" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -596,6 +567,32 @@
       <option name="PACKAGE_NAME" value="LevelOrderTreeTraversal" />
       <option name="MAIN_CLASS_NAME" value="LevelOrderTreeTraversal.TraversalTest" />
       <option name="METHOD_NAME" value="testIsBST" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CakeThiefTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CakeThief.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CakeThief" />
+      <option name="MAIN_CLASS_NAME" value="CakeThief.CakeThiefTest" />
+      <option name="METHOD_NAME" value="testSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -765,18 +762,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CakeThiefTest.testExample" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TraversalTest.testRootToLeaves" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ReverseKGroupTest.testReverseList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CakeThiefTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TraversalTest.testIsBST" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReverseKGroupTest.testReverseList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CakeThiefTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TraversalTest.testIsBST" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CakeThiefTest.testSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TraversalTest.testIsBST" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CakeThiefTest.testExample" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CakeThiefTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ReverseKGroupTest.testReverseList" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TraversalTest.testRootToLeaves" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CakeThiefTest.testSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TraversalTest.testIsBST" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CakeThiefTest.testExample" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CakeThiefTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReverseKGroupTest.testReverseList" />
       </list>
     </recent_temporary>
   </component>
@@ -847,7 +844,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24867256" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24867256" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1333,27 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThief.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LevelOrderTreeTraversal/TraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1375,6 +1351,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1383,11 +1367,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java">
+    <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThief.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26918393">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#718#736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

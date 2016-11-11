@@ -20,19 +20,27 @@ public class CakeThief {
         return max[cakes.length - 1][capacity];
     }
 
-    public int meetMiddle(Pair<Integer,Integer>[] cakes, int capacity){
-         return 0;
+    private Pair<Integer, Integer> findClosestPair(Pair<Integer, Integer>[] ans2, Pair<Integer, Integer> p, int capacity) {
+        int index = ans2.length / 2;
+        Pair<Integer,Integer> res = new Pair<Integer, Integer>(0,0);
+        while(index < ans2.length){
+            if(ans2[index].first + p.first <= capacity){
+
+            }
+            index++;
+        }
+
+        return new Pair<Integer, Integer>(0,0);
     }
 
 
-
-    public <T extends Comparable,K extends Comparable> void sortDescending(Pair<T, K>[] cakes,  int bottom, int top) {
+    public <T extends Comparable,K extends Comparable> void sort(Pair<T, K>[] cakes, int bottom, int top) {
 
         if(bottom  < top){
             int middle = (top - bottom) / 2;
 
-            sortDescending(cakes, bottom, bottom + middle);
-            sortDescending(cakes, bottom + middle + 1, top);
+            sort(cakes, bottom, bottom + middle);
+            sort(cakes, bottom + middle + 1, top);
 
             merge(cakes, bottom, top);
         }
@@ -43,7 +51,7 @@ public class CakeThief {
         int s =  m + 1;
 
         while(b <=  m && s <= t){
-            if(cakes[b].first.compareTo(cakes[s].first) < 0){
+            if(cakes[b].first.compareTo(cakes[s].first) > 0){
                 shift(cakes, b, s);
                 b++; s++;
             } else{
