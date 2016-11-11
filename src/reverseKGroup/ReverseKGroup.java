@@ -70,4 +70,21 @@ public class ReverseKGroup {
     }
 
 
+
+    public ListNode reverseList(ListNode head){
+        ListNode firstElement = null;
+        if(head != null){
+            ListNode lastElement = head.next;
+            firstElement= reverseList(head.next);
+            if(firstElement != null) {
+                lastElement.next = head;
+                head.next = null;
+            } else {
+                firstElement = head;
+            }
+        }
+
+        return firstElement;
+    }
+
 }

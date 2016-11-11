@@ -87,4 +87,18 @@ public class ReverseKGroupTest {
         assertEquals("[1,2,3,4,5,6,7] with 3 -> [3,2,1,6,5,4,7]", "[3,2,1,6,5,4,7]", rev.toString(rev.reverseKGroup(nodes[0],3)));
 
     }
+
+    @Test
+    public void testReverseList(){
+        ListNode[] nodes = new ListNode[7];
+        for(int i = 0 ; i < nodes.length;i++){
+            nodes[i] = new ListNode(i+1);
+            if(i > 0){
+                nodes[i-1].next = nodes[i];
+            }
+        }
+
+        assertEquals("reverse test", "[7,6,5,4,3,2,1]", rev.toString(rev.reverseList(nodes[0])));
+
+    }
 }

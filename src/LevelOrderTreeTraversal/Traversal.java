@@ -11,6 +11,34 @@ public class Traversal{
         }
     }
 
+    public String[] allRootToLeavePaths(TreeNode root){
+        if(root != null ){
+
+            if(root.left != null || root.right != null) {
+                String[] left = allRootToLeavePaths(root.left);
+                String[] right = allRootToLeavePaths(root.right);
+
+                String[] paths = new String[left.length + right.length];
+
+                for(int i = 0; i < left.length;i++){
+                    paths[i] = root.val + left[i];
+                }
+
+                for(int i = 0; i < right.length;i++){
+                    paths[left.length + i] = root.val + right[i];
+                }
+
+                return paths;
+            } else{
+                //it is a leaf
+                return new String[]{String.valueOf(root.val)};
+            }
+        }
+
+
+        return new String[0];
+     }
+
 
 
 
