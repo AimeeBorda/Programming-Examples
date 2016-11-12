@@ -40,7 +40,46 @@ public class Traversal{
      }
 
 
+    public boolean isBST2(TreeNode root){
+        return isBSTMax(root, 0 , Integer.MAX_VALUE) ;
+    }
 
+    private boolean isBSTMax(TreeNode root, int min, int max){
+        if(root == null)
+            return true;
+        else {
+            boolean isBST = (root.val > min) && (root.val < max);
+            isBST &= isBSTMax(root.left, min, root.val);
+            isBST &= isBSTMax(root.right,root.val, max);
+
+            return isBST;
+        }
+
+    }
+
+    public boolean isBSTInOrder(TreeNode root){
+        ArrayList<Integer> values = new ArrayList<>();
+        inOrderTraversal(root,values);
+
+        return isAsc(values);
+    }
+
+    public void inOrderTraversal(TreeNode root, ArrayList<Integer> values){
+        if(root != null){
+            inOrderTraversal(root.left,values);
+            values.add(root.val);
+            inOrderTraversal(root.right,values);
+        }
+    }
+
+    public boolean isAsc(ArrayList<Integer> arr){
+        for(int i = 0 ; i < arr.size() - 1; i++){
+            if(arr.get(i) > arr.get(i+1))
+                return false;
+        }
+
+        return true;
+    }
 
     public String traversal(TreeNode root){
         int[] arr = new int[2*height(root)+1];

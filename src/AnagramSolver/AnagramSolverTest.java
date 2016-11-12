@@ -29,7 +29,7 @@ public class AnagramSolverTest {
     @Test
     public void testAnagram(){
 
-        HashSet<String> dictionary = new HashSet<String>(){{add("hello"); add("world"); add("to"); add("the"); add("is"); add("we"); add("tooth"); }};
+        HashSet<String> dictionary = new HashSet<String>(){{add("hello"); add("world"); add("to"); add("the"); add("is"); add("we"); add("tooth"); add("door"); }};
         assertEquals("should solve anagram", "hello to the world",a.solveAnagram("elhloothtedrowl",dictionary));
 
     }

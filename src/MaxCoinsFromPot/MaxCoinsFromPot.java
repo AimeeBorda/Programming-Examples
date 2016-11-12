@@ -1,6 +1,8 @@
 package MaxCoinsFromPot;
 
 public class MaxCoinsFromPot {
+
+    int[] max;
     private boolean chooseBottom(int[] pots, int bottom, int top){
         if(pots[bottom] > pots[top])
             return true;
@@ -12,30 +14,24 @@ public class MaxCoinsFromPot {
         } else
             return true;
     }
+    private void choosePot(int[] pots,  int i){
+        if(i == 0){
+            max[0] = pots[0];
+        }else {
+//            max[i] = Math.max()
 
+        }
+    }
 
     public int choosePots(int[] pots){
-        int score = 0;
+        max = new int[pots.length];
 
-        if(pots != null) {
-            int bottom = 0;
-            int top = pots.length - 1;
-            boolean myTurn = true;
-
-            while (bottom < top) {
-                if (chooseBottom(pots, bottom, top)) {
-                    score += myTurn ? pots[bottom] : 0;
-                    bottom++;
-                } else {
-                    score += myTurn ? pots[top] : 0;
-                    top--;
-                }
-
-                myTurn = !myTurn;
-            }
+        for(int i = 0 ; i < pots.length; i++){
+            choosePot(pots, i);
         }
 
-        return score;
+        return max[pots.length - 1];
+
     }
 
 
