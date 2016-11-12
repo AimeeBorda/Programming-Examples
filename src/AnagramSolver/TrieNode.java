@@ -1,10 +1,18 @@
 package AnagramSolver;
 
+import java.util.HashSet;
+
 public class TrieNode {
 
-    private TrieNode[] children = new TrieNode[26];
-    private String[] words;
+     TrieNode[] children = new TrieNode[26];
+    HashSet<String> words = new HashSet<String>();
 
 
+    public TrieNode getChild(char c) {
+        int index = c - 97;
+        if(children[index] == null)
+            children[index] = new TrieNode();
 
+        return children[index];
+    }
 }
