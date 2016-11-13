@@ -3,8 +3,10 @@ package  MaxCoinBalloonBurst;
 
 public class MaxCoin {
 
-    //get rid from smallest to largest 
+
+
     public int maxCoins(int[] nums) {
+
         int smallest = 0;
         int coins = 0;
         int nextSmallest = Integer.MAX_VALUE;

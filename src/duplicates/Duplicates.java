@@ -3,7 +3,8 @@ package duplicates;
 
 public class Duplicates {
 
-    //assume that values are +ve
+    //https://www.careercup.com/question?id=5719799180034048
+    //https://leetcode.com/problems/find-the-duplicate-number/
     public int findDuplicate(int[] arr){
 
     if(arr != null) {

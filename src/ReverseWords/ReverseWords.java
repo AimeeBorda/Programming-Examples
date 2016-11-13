@@ -45,4 +45,16 @@ public class ReverseWords {
         }
         return words;
     }
+
+//https://www.interviewcake.com/question/python/reverse-string-in-place
+    public String inplaceReversal(String word){
+        char[] letter = word.toCharArray();
+        for(int i = 0 ; i < word.length() / 2; i++){
+            char temp = letter[i];
+            letter[i] = letter[word.length() - i - 1];
+            letter[word.length() - i-1] = temp;
+        }
+
+        return Arrays.toString(letter).replaceAll(", ","").substring(1,letter.length+1);
+    }
 }

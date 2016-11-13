@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 public class ReverseWordsTest {
 
@@ -14,6 +15,10 @@ public class ReverseWordsTest {
         rev = new ReverseWords();
     }
 
+    @Test
+    public void testInPaceReversal(){
+        assertEquals("reverse","1234567", rev.inplaceReversal("7654321"));
+    }
     @Test
     public void testEmpty(){
         assertArrayEquals("Empty list", new String[]{}, rev.reverse(new String[]{}));

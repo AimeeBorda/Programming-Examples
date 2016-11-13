@@ -1,5 +1,6 @@
 package CakeThief;
 
+//https://www.interviewcake.com/question/python/cake-thief
 public class CakeThief {
 
 
@@ -19,20 +20,6 @@ public class CakeThief {
         }
         return max[cakes.length - 1][capacity];
     }
-
-    private Pair<Integer, Integer> findClosestPair(Pair<Integer, Integer>[] ans2, Pair<Integer, Integer> p, int capacity) {
-        int index = ans2.length / 2;
-        Pair<Integer,Integer> res = new Pair<Integer, Integer>(0,0);
-        while(index < ans2.length){
-            if(ans2[index].first + p.first <= capacity){
-
-            }
-            index++;
-        }
-
-        return new Pair<Integer, Integer>(0,0);
-    }
-
 
     public <T extends Comparable,K extends Comparable> void sort(Pair<T, K>[] cakes, int bottom, int top) {
 
