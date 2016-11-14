@@ -1,81 +1,39 @@
 package  MaxCoinBalloonBurst;
 
-
+/* https://leetcode.com/problems/burst-balloons/
+ *
+ * Given N balloons, if you burst ith balloon you get Ai−1∗Ai∗Ai+1 coins and then (i-1)th and (i+1)th
+ * balloons become adjacent. Find maximum number of coins you can gather.
+ * Assume that we have extra 1 at left most and right most positions. (don't take in answer just for boundary positions)
+ * Hence if we have left or right boundary positions we multiply 1
+ *
+ */
 public class MaxCoin {
 
-
-
     public int maxCoins(int[] nums) {
+        int[][] dp = new int[nums.length][nums.length];
 
-        int smallest = 0;
-        int coins = 0;
-        int nextSmallest = Integer.MAX_VALUE;
-        int count = 0;
-        for(int j = 0;j <= 500 && smallest <=500;j++){
-            for(int i = 0;i < nums.length;i++){
-                if(nums[i] == smallest){
-                    coins += getCoins(nums,i);
-                    System.out.print(nums[i]+" ");
-                    nums[i] = -1;
-                    count++;
+        for(int end = 0; end < nums.length; end++){
+            dp[end][end] = n(nums, end - 1) * n(nums, end) * n(nums, end + 1);
+            for(int start = end - 1; start >= 0;start--){
+                //value is we burst the balloon in the jth pos
+
+                for(int pos = start; pos <= end;pos++){
+
+                    int val =   (pos > 0 ? dp[start][pos-1] : 0)
+                                + (pos < nums.length -1? dp[pos+1][end] : 0)
+                                + (n(nums,pos)* n(nums,end+1) * n(nums,start-1));
+
+                    dp[start][end] = Math.max(dp[start][end],val);
                 }
-
-                nextSmallest = getSmallest(nextSmallest,nums,i,count,smallest);
             }
-            smallest = nextSmallest;
-            nextSmallest = Integer.MAX_VALUE;
         }
-
-        return coins;
+       return dp[0][nums.length-1];
     }
 
-    private int getCoins(int[] nums, int i){
-        return nums[i] * getNext(nums,i) * getPrev(nums,i);
+
+    public int n(int[] nums, int i) {
+        return i < nums.length && i >=0? nums[i] : 1;
     }
 
-    private int getNext(int[] nums,int i){
-        i = i + 1;
-        while(i < nums.length && nums[i] < 0){
-            i++;
-        }
-
-        return i < nums.length?nums[i]:1;
-    }
-
-    private int getPrev(int[] nums,int i){
-        i = i - 1;
-        while(i >= 0 && nums[i] < 0){
-            i--;
-        }
-
-        return i >= 0 ?nums[i]:1;
-    }
-
-    public int getSmallest(int nextSmallest, int[] nums, int i, int count,int smallest){
-
-        boolean isFirst = true, isLast = true;
-        for(int j = 0; j < i ; j++){
-            if(nums[j] > 0 && nums[j] != smallest){
-                isFirst = false;
-                break;
-            }
-
-        }
-
-        for(int j = i+1; j < nums.length ; j++){
-            if(nums[j] > 0 && nums[j] != smallest){
-                isLast = false;
-                break;
-            }
-            if(nums[j] == smallest)
-                count++;
-        }
-
-        if(((isFirst  || isLast) && (nums.length - count) > 2) || nums[i] < 0){
-            return nextSmallest;
-        }
-        else{
-            return Math.min(nextSmallest,nums[i]);
-        }
-    }
 }
