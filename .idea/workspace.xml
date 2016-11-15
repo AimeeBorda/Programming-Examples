@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580c7af9-e758-4bc0-a6f2-d32a173fae69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxPointsOnLine/MaxPointsOnLine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/AnagramSolver/AnagramSolver.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/AnagramSolver/AnagramSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/LargestPrimeProduct/LargestPrimeFactor.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/LargestPrimeProduct/LargestPrimeFactor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/MaxCoinBalloonBurst/MaxCoin.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/MaxCoinBalloonBurst/MaxCoin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/MaxCoinBalloonBurst/MaxCoinTest.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/MaxCoinBalloonBurst/MaxCoinTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/MaxCoinsFromPot/MaxCoinsFromPotTest.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/MaxCoinsFromPot/MaxCoinsFromPotTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/MedianSortedArrays/Median.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/MedianSortedArrays/Median.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/MedianSortedArrays/MedianTest.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/MedianSortedArrays/MedianTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/StoreCredit/StoreCredit.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/StoreCredit/StoreCredit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fibonacci/Fibonacci.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fibonacci/FibonacciTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/maxPointsOnLine/MaxPointOnLineTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AnagramSolver/AnagramSolver.java" afterPath="$PROJECT_DIR$/src/anagramSolver/AnagramSolver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AnagramSolver/AnagramSolverTest.java" afterPath="$PROJECT_DIR$/src/anagramSolver/AnagramSolverTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AnagramSolver/TrieNode.java" afterPath="$PROJECT_DIR$/src/anagramSolver/TrieNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CakeThief/CakeThief.java" afterPath="$PROJECT_DIR$/src/cakeThief/CakeThief.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java" afterPath="$PROJECT_DIR$/src/cakeThief/CakeThiefTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/CakeThief/Pair.java" afterPath="$PROJECT_DIR$/src/cakeThief/Pair.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LargestPrimeProduct/LargestPrimeFactor.java" afterPath="$PROJECT_DIR$/src/largestPrimeProduct/LargestPrimeFactor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/Traversal.java" afterPath="$PROJECT_DIR$/src/levelOrderTreeTraversal/Traversal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/TraversalTest.java" afterPath="$PROJECT_DIR$/src/levelOrderTreeTraversal/TraversalTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LevelOrderTreeTraversal/TreeNode.java" afterPath="$PROJECT_DIR$/src/levelOrderTreeTraversal/TreeNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java" afterPath="$PROJECT_DIR$/src/maxCoinBalloonBurst/MaxCoin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoinTest.java" afterPath="$PROJECT_DIR$/src/maxCoinBalloonBurst/MaxCoinTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPot.java" afterPath="$PROJECT_DIR$/src/maxCoinsFromPot/MaxCoinsFromPot.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPotTest.java" afterPath="$PROJECT_DIR$/src/maxCoinsFromPot/MaxCoinsFromPotTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaxPointsOnLine/MaxPointsOnLine.java" afterPath="$PROJECT_DIR$/src/maxPointsOnLine/MaxPointsOnLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MedianSortedArrays/Median.java" afterPath="$PROJECT_DIR$/src/medianSortedArrays/Median.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MedianSortedArrays/MedianTest.java" afterPath="$PROJECT_DIR$/src/medianSortedArrays/MedianTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/NextLargerElement/ArrayExample.java" afterPath="$PROJECT_DIR$/src/nextLargerElement/ArrayExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/NextLargerElement/ArrayExampleTest.java" afterPath="$PROJECT_DIR$/src/nextLargerElement/ArrayExampleTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ReverseWords/ReverseWords.java" afterPath="$PROJECT_DIR$/src/reverseWords/ReverseWords.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ReverseWords/ReverseWordsTest.java" afterPath="$PROJECT_DIR$/src/reverseWords/ReverseWordsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SortingByFrequency/SortingByFrequency.java" afterPath="$PROJECT_DIR$/src/sortingByFrequency/SortingByFrequency.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SortingByFrequency/SortingByFrequencyTest.java" afterPath="$PROJECT_DIR$/src/sortingByFrequency/SortingByFrequencyTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/StoreCredit/StoreCredit.java" afterPath="$PROJECT_DIR$/src/storeCredit/StoreCredit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/StoreCredit/StoreCreditTest.java" afterPath="$PROJECT_DIR$/src/storeCredit/StoreCreditTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java" afterPath="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoinTest.java" afterPath="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoinTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MedianSortedArrays/Median.java" afterPath="$PROJECT_DIR$/src/MedianSortedArrays/Median.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MedianSortedArrays/MedianTest.java" afterPath="$PROJECT_DIR$/src/MedianSortedArrays/MedianTest.java" />
     </list>
     <ignored path="Assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +56,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaxPointsOnLine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MaxPointsOnLine/MaxPointsOnLine.java">
+      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Example.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="39" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="39" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxCoin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/maxCoinBalloonBurst/MaxCoin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nextLargerElement/ArrayExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reverseWords/ReverseWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreCredit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storeCredit/StoreCredit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortingByFrequency.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sortingByFrequency/SortingByFrequency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Median.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medianSortedArrays/Median.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fibonacci/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fibonacci/FibonacciTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LargestPrimeFactor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/largestPrimeProduct/LargestPrimeFactor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -72,23 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DoublyLinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/HeapElement.java" />
-        <option value="$PROJECT_DIR$/src/Median.java" />
-        <option value="$PROJECT_DIR$/src/SortingByFrequency.java" />
-        <option value="$PROJECT_DIR$/src/ReverseWords.java" />
-        <option value="$PROJECT_DIR$/src/ReverseWordsimport/ReverseWords.java" />
-        <option value="$PROJECT_DIR$/src/StoreCredit.java" />
-        <option value="$PROJECT_DIR$/src/StoreCredit/StoreCreditTest.java" />
-        <option value="$PROJECT_DIR$/src/SortingByFrequency/SortingByFrequencyTest.java" />
-        <option value="$PROJECT_DIR$/src/StoreCredit/StoreCredit.java" />
-        <option value="$PROJECT_DIR$/storeCredit.in" />
-        <option value="$PROJECT_DIR$/src/SortKBatch/SortKBatch.java" />
-        <option value="$PROJECT_DIR$/src/SortKBatch/ReverseKGroup.java" />
-        <option value="$PROJECT_DIR$/src/reverseKGroup/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/LevelOrderTreeTraversal/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Duplicates.java" />
-        <option value="$PROJECT_DIR$/src/duplicates/DuplicatesTest.java" />
         <option value="$PROJECT_DIR$/src/NextLargerElement.java" />
         <option value="$PROJECT_DIR$/src/ArrayExample.java" />
         <option value="$PROJECT_DIR$/src/NextLargerElement/ArrayExample.java" />
@@ -117,12 +209,29 @@
         <option value="$PROJECT_DIR$/src/ReverseWords/ReverseWordsTest.java" />
         <option value="$PROJECT_DIR$/src/ReverseWords/ReverseWords.java" />
         <option value="$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPotTest.java" />
-        <option value="$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPot.java" />
         <option value="$PROJECT_DIR$/src/MedianSortedArrays/MedianTest.java" />
         <option value="$PROJECT_DIR$/src/MedianSortedArrays/Median.java" />
         <option value="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoinTest.java" />
         <option value="$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java" />
         <option value="$PROJECT_DIR$/src/MaxPointsOnLine.java" />
+        <option value="$PROJECT_DIR$/src/MaxPointsOnLine/MaxPointOnLineTest.java" />
+        <option value="$PROJECT_DIR$/src/MaxPointsOnLine/MaxPointsOnLine.java" />
+        <option value="$PROJECT_DIR$/src/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPot.java" />
+        <option value="$PROJECT_DIR$/src/maxCoinsFromPot/MaxCoinsFromPot.java" />
+        <option value="$PROJECT_DIR$/src/maxPointsOnLine/MaxPointsOnLine.java" />
+        <option value="$PROJECT_DIR$/src/levelOrderTreeTraversal/Traversal.java" />
+        <option value="$PROJECT_DIR$/src/anagramSolver/AnagramSolver.java" />
+        <option value="$PROJECT_DIR$/src/cakeThief/CakeThief.java" />
+        <option value="$PROJECT_DIR$/src/largestPrimeProduct/LargestPrimeFactor.java" />
+        <option value="$PROJECT_DIR$/src/maxCoinBalloonBurst/MaxCoin.java" />
+        <option value="$PROJECT_DIR$/src/nextLargerElement/ArrayExample.java" />
+        <option value="$PROJECT_DIR$/src/reverseWords/ReverseWords.java" />
+        <option value="$PROJECT_DIR$/src/storeCredit/StoreCredit.java" />
+        <option value="$PROJECT_DIR$/src/sortingByFrequency/SortingByFrequency.java" />
+        <option value="$PROJECT_DIR$/src/medianSortedArrays/Median.java" />
+        <option value="$PROJECT_DIR$/src/fibonacci/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/fibonacci/FibonacciTest.java" />
       </list>
     </option>
   </component>
@@ -168,8 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,7 +311,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="StoreCredit" />
+              <option name="myItemId" value="storeCredit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingByFrequency" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reverseWords" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,7 +379,223 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MaxPointsOnLine" />
+              <option name="myItemId" value="nextLargerElement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medianSortedArrays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxPointsOnLine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxCoinsFromPot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maxCoinBalloonBurst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levelOrderTreeTraversal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="largestPrimeProduct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isPrime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fibonacci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duplicates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakeThief" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anagramSolver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,7 +625,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="reverset&#9;FILE&#9;file:///Users/aimeeborda/IdeaProjects/Programming-Examples/src/ReverseWords/ReverseWordsTest.java" />
+    <property name="SearchEverywhereHistoryKey" value="cookiepro&#9;PSI&#9;JAVA://leetcode.Example#cookieProblem&#10;maxpoint&#9;PSI&#9;JAVA://MaxPointsOnLine.MaxPointsOnLine&#10;reverset&#9;FILE&#9;file:///Users/aimeeborda/IdeaProjects/Programming-Examples/src/ReverseWords/ReverseWordsTest.java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -280,73 +641,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StoreCreditTest">
-    <configuration default="false" name="MedianTest.testMedian6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MedianSortedArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MedianSortedArrays" />
-      <option name="MAIN_CLASS_NAME" value="MedianSortedArrays.MedianTest" />
-      <option name="METHOD_NAME" value="testMedian6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FibonacciTest">
     <configuration default="false" name="MaxCoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MaxCoinBalloonBurst.*" />
+          <option name="PATTERN" value="maxCoinBalloonBurst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxCoinBalloonBurst" />
-      <option name="MAIN_CLASS_NAME" value="MaxCoinBalloonBurst.MaxCoinTest" />
+      <option name="PACKAGE_NAME" value="maxCoinBalloonBurst" />
+      <option name="MAIN_CLASS_NAME" value="maxCoinBalloonBurst.MaxCoinTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MaxCoinTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaxCoinBalloonBurst.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxCoinBalloonBurst" />
-      <option name="MAIN_CLASS_NAME" value="MaxCoinBalloonBurst.MaxCoinTest" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -362,15 +671,15 @@
     <configuration default="false" name="MaxCoinTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MaxCoinBalloonBurst.*" />
+          <option name="PATTERN" value="maxCoinBalloonBurst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxCoinBalloonBurst" />
-      <option name="MAIN_CLASS_NAME" value="MaxCoinBalloonBurst.MaxCoinTest" />
+      <option name="PACKAGE_NAME" value="maxCoinBalloonBurst" />
+      <option name="MAIN_CLASS_NAME" value="maxCoinBalloonBurst.MaxCoinTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -388,16 +697,68 @@
     <configuration default="false" name="StoreCreditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="StoreCredit.*" />
+          <option name="PATTERN" value="storeCredit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programming-Examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="StoreCredit" />
-      <option name="MAIN_CLASS_NAME" value="StoreCredit.StoreCreditTest" />
+      <option name="PACKAGE_NAME" value="storeCredit" />
+      <option name="MAIN_CLASS_NAME" value="storeCredit.StoreCreditTest" />
       <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FibonacciTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fibonacci.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fibonacci" />
+      <option name="MAIN_CLASS_NAME" value="fibonacci.FibonacciTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -886,19 +1247,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MedianTest.testMedian6" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MaxCoinTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MaxCoinTest.test5" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MaxCoinTest.test1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StoreCreditTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MaxCoinTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MaxCoinTest.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StoreCreditTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StoreCreditTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MaxCoinTest.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MaxCoinTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MaxCoinTest.test5" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MedianTest.testMedian6" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StoreCreditTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MaxCoinTest.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MaxCoinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -931,44 +1292,46 @@
       <workItem from="1479106345526" duration="952000" />
       <workItem from="1479107398784" duration="24000" />
       <workItem from="1479107439526" duration="6968000" />
-      <workItem from="1479115922153" duration="1704000" />
+      <workItem from="1479115922153" duration="1748000" />
+      <workItem from="1479174768542" duration="741000" />
+      <workItem from="1479193024662" duration="1313000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxCoinTest - 2016.11.14 at 09h 42m 11s.xml">
-      <configuration name="MaxCoinTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2016.11.15 at 07h 23m 09s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest - 2016.11.14 at 09h 42m 43s.xml">
-      <configuration name="MaxCoinTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2016.11.15 at 07h 23m 45s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest - 2016.11.14 at 09h 49m 26s.xml">
-      <configuration name="MaxCoinTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2016.11.15 at 07h 23m 55s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest - 2016.11.14 at 09h 49m 59s.xml">
-      <configuration name="MaxCoinTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2016.11.15 at 07h 24m 12s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest - 2016.11.14 at 09h 50m 08s.xml">
-      <configuration name="MaxCoinTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2016.11.15 at 07h 24m 29s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest_test1 - 2016.11.14 at 09h 57m 09s.xml">
-      <configuration name="MaxCoinTest.test1" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2016.11.15 at 07h 25m 07s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest_test1 - 2016.11.14 at 09h 57m 27s.xml">
-      <configuration name="MaxCoinTest.test1" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_test - 2016.11.15 at 07h 21m 37s.xml">
+      <configuration name="FibonacciTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest_test1 - 2016.11.14 at 09h 57m 51s.xml">
-      <configuration name="MaxCoinTest.test1" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_test - 2016.11.15 at 07h 21m 57s.xml">
+      <configuration name="FibonacciTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxCoinTest_test1 - 2016.11.14 at 09h 58m 34s.xml">
-      <configuration name="MaxCoinTest.test1" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_test - 2016.11.15 at 07h 22m 23s.xml">
+      <configuration name="FibonacciTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoreCreditTest - 2016.11.14 at 09h 59m 04s.xml">
-      <configuration name="StoreCreditTest" configurationId="JUnit" />
+    <history-entry file="FibonacciTest_test - 2016.11.15 at 07h 22m 46s.xml">
+      <configuration name="FibonacciTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72057000" />
+    <option name="totallyTimeSpent" value="74155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,7 +1354,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5383562" sideWeight="0.5056543" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4410959" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4410959" sideWeight="0.49574015" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920355" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1088,19 +1451,19 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/StoreCredit/StoreCredit.java</url>
+          <url>file://$PROJECT_DIR$/src/storeCredit/StoreCredit.java</url>
           <line>2</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ReverseWords/ReverseWords.java</url>
+          <url>file://$PROJECT_DIR$/src/reverseWords/ReverseWords.java</url>
           <line>42</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MedianSortedArrays/Median.java</url>
+          <url>file://$PROJECT_DIR$/src/medianSortedArrays/Median.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="51" />
@@ -1166,25 +1529,31 @@
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LevelOrderTreeTraversal/Traversal.java</url>
+          <url>file://$PROJECT_DIR$/src/levelOrderTreeTraversal/Traversal.java</url>
           <line>172</line>
           <properties />
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPotTest.java</url>
+          <url>file://$PROJECT_DIR$/src/maxCoinsFromPot/MaxCoinsFromPotTest.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MedianSortedArrays/MedianTest.java</url>
+          <url>file://$PROJECT_DIR$/src/medianSortedArrays/MedianTest.java</url>
           <line>46</line>
           <properties />
           <option name="timeStamp" value="246" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fibonacci/FibonacciTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="250" />
+      <option name="time" value="253" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1200,31 +1569,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ReverseWords/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoreCredit/StoreCredit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseWords/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoreCredit/StoreCredit.java">
+    <entry file="file://$PROJECT_DIR$/src/storeCredit/StoreCredit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="119" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="119" />
@@ -1246,7 +1591,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseWords/ReverseWords.java">
+    <entry file="file://$PROJECT_DIR$/src/reverseWords/ReverseWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1254,7 +1599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoreCredit/StoreCredit.java">
+    <entry file="file://$PROJECT_DIR$/src/storeCredit/StoreCredit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
@@ -1262,7 +1607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoreCredit/StoreCredit.java">
+    <entry file="file://$PROJECT_DIR$/src/storeCredit/StoreCredit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
@@ -1291,7 +1636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortingByFrequency/SortingByFrequencyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/sortingByFrequency/SortingByFrequencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
@@ -1312,21 +1657,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelOrderTreeTraversal/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/levelOrderTreeTraversal/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NextLargerElement/ArrayExampleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/nextLargerElement/ArrayExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CakeThief/Pair.java">
+    <entry file="file://$PROJECT_DIR$/src/cakeThief/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -1351,13 +1696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LargestPrimeProduct/LargestPrimeFactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1397,42 +1735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/duplicates/Duplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnagramSolver/AnagramSolverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/anagramSolver/AnagramSolverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="37" column="97" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnagramSolver/AnagramSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SortingByFrequency/SortingByFrequency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1444,58 +1750,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NextLargerElement/ArrayExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThiefTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cakeThief/CakeThiefTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CakeThief/CakeThief.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelOrderTreeTraversal/TraversalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/levelOrderTreeTraversal/TraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelOrderTreeTraversal/Traversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseWords/ReverseWordsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/reverseWords/ReverseWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseWords/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPotTest.java">
+    <entry file="file://$PROJECT_DIR$/src/maxCoinsFromPot/MaxCoinsFromPotTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
@@ -1517,34 +1793,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoreCredit/StoreCredit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-949">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxCoinsFromPot/MaxCoinsFromPot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MedianSortedArrays/MedianTest.java">
+    <entry file="file://$PROJECT_DIR$/src/medianSortedArrays/MedianTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
@@ -1552,26 +1801,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MedianSortedArrays/Median.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoreCredit/StoreCreditTest.java">
+    <entry file="file://$PROJECT_DIR$/src/storeCredit/StoreCreditTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxCoinBalloonBurst/MaxCoinTest.java">
+    <entry file="file://$PROJECT_DIR$/src/maxCoinBalloonBurst/MaxCoinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
@@ -1582,11 +1819,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxPointsOnLine/MaxPointsOnLine.java">
+    <entry file="file://$PROJECT_DIR$/src/maxCoinsFromPot/MaxCoinsFromPot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxPointsOnLine/MaxPointsOnLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxPointsOnLine/MaxPointOnLineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/levelOrderTreeTraversal/Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anagramSolver/AnagramSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cakeThief/CakeThief.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/duplicates/Duplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/largestPrimeProduct/LargestPrimeFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="39" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxCoinBalloonBurst/MaxCoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nextLargerElement/ArrayExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reverseWords/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storeCredit/StoreCredit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sortingByFrequency/SortingByFrequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medianSortedArrays/Median.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fibonacci/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fibonacci/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
