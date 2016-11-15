@@ -111,7 +111,6 @@ public class MapIntegersTest {
         assertTrue("-4", m.isPowerOf2(-4));
         assertFalse("-3", m.isPowerOf2(-3));
         assertTrue("-1", m.isPowerOf2(-1));
-//        assertFalse("min should be false", m.isPowerOf2(Integer.MIN_VALUE));
     }
 
 
@@ -138,9 +137,37 @@ public class MapIntegersTest {
     }
 
     @Test
-    public void testLSB(){
-        assertEquals("lsb 4 ",4, m.lsb(4,32));
-        assertEquals("lsb ",32, m.lsb(35,32));
+    public void testAddition(){
+        assertEquals("add 5 4", 9, m.add(5,4));
+        assertEquals("add 5 5", 10, m.add(5,5));
+        assertEquals("add -1 -2", -3, m.add(-1,-2));
 
+    }
+    @Test
+    public void testLSB(){
+        assertEquals("lsb 1",1, m.lsb(35));
+        assertEquals("lsb 4 ",4, m.lsb(4));
+        assertEquals("lsb -1 ",1, m.lsb(-1));
+        assertEquals("lsb 0 ",0, m.lsb(0));
+        assertEquals("lsb -5 ",1, m.lsb(-5));
+        assertEquals("lsb -4 ",4, m.lsb(-4));
+    }
+
+    @Test
+    public void testReverse(){
+        assertEquals("rev of 2", Integer.reverse(2), m.reverseBit(2));
+        assertEquals("rev of 1", Integer.reverse(1), m.reverseBit(1));
+        assertEquals("rev of -1", Integer.reverse(-1), m.reverseBit(-1));
+        assertEquals("rev of 0", Integer.reverse(0), m.reverseBit(0));
+        assertEquals("rev of 67", Integer.reverse(67), m.reverseBit(67));
+    }
+
+    @Test
+    public void testReverseRec(){
+        assertEquals("rev of 2", Integer.reverse(2), m.reverseBitRec(2));
+        assertEquals("rev of 1", Integer.reverse(1), m.reverseBitRec(1));
+        assertEquals("rev of -1", Integer.reverse(-1), m.reverseBitRec(-1));
+        assertEquals("rev of 0", Integer.reverse(0), m.reverseBitRec(0));
+        assertEquals("rev of 67", Integer.reverse(67), m.reverseBitRec(67));
     }
 }

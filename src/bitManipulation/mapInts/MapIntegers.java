@@ -64,10 +64,53 @@ public class MapIntegers {
     }
 
     public int lsb(int num){
-return -1;
+        int len = 16;
+        int mask = 1 << len;
+        num = absValue(num);
+        while(num != 0 && (num & (num-1)) > 0){
+            if((num & (mask-1)) > 0) {
+                len /= 2;
+                num = num & (mask - 1);
+                mask = (mask >> len);
+            } else {
+                len /= 2;
+                mask = (mask << len);
+            }
+        }
+
+
+        return num;
     }
 
     public int reverseBit(int num){
-        return -1;
+        int res = 0;
+        for(int i = 0 ; i < 32; i++){
+            res = (res << 1) | (num & 1);
+            num = num >>> 1;
+        }
+
+        return res;
     }
+    public int reverseBitRec(int num) {
+        return reverseBitRec(num,0,31);
+    }
+    private int reverseBitRec(int num, int s, int e){
+        if(e - s < 1){
+            return num;
+        }else{
+            int mid = (e + s)/2;
+            int len = ((e-s) /2) + 1;
+            int mask = (-1 >>> (32 - len)) << s;
+            int num1 = reverseBitRec(num & mask, s, mid) << (len);
+            int num2= reverseBitRec(num & (mask << len), mid+1,e) >>> (len);
+            //O(1) as the size is at most 32
+            return num2 | num1;
+        }
+    }
+
+    public int add(int num1, int num2){
+        int carry = ((num1 & num2) << 1);
+        return (num1 ^ num2) ^carry ;
+    }
+
 }
