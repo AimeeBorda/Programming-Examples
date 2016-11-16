@@ -35,17 +35,54 @@ public class RegularExpressionTest {
     @Test
     public void testLang(){
         assertTrue("empty string",r.langN(""));
-        assertFalse("a",r.langN("a"));
-        assertTrue("ab",r.langN("ab"));
-        assertFalse("aabbb",r.langN("aabbb"));
-        assertTrue("aaabbb",r.langN("aaabbb"));
-        assertFalse("aaabbb",r.langN("aaacbbb"));
+        assertTrue("true for ab",r.langN("ab"));
+        assertTrue("true for aabb",r.langN("aabb"));
+        assertTrue("true for aaabbb",r.langN("aaabbb"));
+
+        assertFalse("false for aabbb",r.langN("aabbb"));
+        assertFalse("false for a",r.langN("a"));
+        assertFalse("false for aaabbb",r.langN("aaacbbb"));
     }
 
     @Test
     public void testSpaces(){
         assertEquals("should be the same","hello world ",r.deleteExtraAndLeadingSpacesOnly("hello world "));
-        assertEquals("should remove leading space","hello world ",r.deleteExtraAndLeadingSpacesOnly("   hello   world "));
+        assertEquals("should remove leading space","hello world  ",r.deleteExtraAndLeadingSpacesOnly("   hello   world  "));
         assertEquals("should remove leading space","hello world dd  ",r.deleteExtraAndLeadingSpacesOnly("   hello   world   dd  "));
+    }
+
+    @Test
+    public void testIsNumber(){
+        assertTrue("0",r.isNumber("0"));
+        assertTrue("1.1",r.isNumber("1.1"));
+        assertTrue(".1",r.isNumber(".1"));
+        assertTrue(".15",r.isNumber(".15"));
+        assertFalse("1.",r.isNumber("1."));
+        assertFalse("31.",r.isNumber("31."));
+        assertTrue(".5e5",r.isNumber(".5e5"));
+        assertTrue("35.5e5",r.isNumber("35.5e5"));
+        assertTrue("35e5",r.isNumber("35e5"));
+        assertFalse("35a5",r.isNumber("35a5"));
+        assertFalse("35.e5",r.isNumber("35.e5"));
+        assertFalse("e5",r.isNumber("e5"));
+        assertFalse(".e5",r.isNumber(".e5"));
+        assertFalse("35e",r.isNumber("35e"));
+
+    }
+
+    @Test
+    public void testIsPrime(){
+        assertTrue("2", r.isPrime(2));
+        assertTrue("23", r.isPrime(23));
+        assertFalse("24", r.isPrime(24));
+        assertFalse("25", r.isPrime(24));
+        assertFalse("27", r.isPrime(24));
+    }
+
+    @Test
+    public void testCommaSeparation(){
+        assertEquals("hello,world","[hello,world]",Arrays.toString(r.commaSeparated("hello,world")));
+        assertEquals("[hello,\"world,test\"","[hello,\"world,test\"]",Arrays.toString(r.commaSeparated("hello,\"world,test\"")));
+        assertEquals("[hello,\"world,test\",\"test,another\"]","[hello,\"world,test\",\"test,another\"]",Arrays.toString(r.commaSeparated("hello,\"world,test\",\"test,another\"")));
     }
 }
