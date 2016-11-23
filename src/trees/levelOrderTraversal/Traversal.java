@@ -1,11 +1,13 @@
-package dynamicProgramming.levelOrderTreeTraversal;
+package trees.levelOrderTraversal;
+
+import trees.TreeNode;
 
 import java.util.*;
 
 public class Traversal{
-    private void lot(TreeNode node, int[] arr, int index){
+    private void lot(TreeNode<Integer, Integer> node, int[] arr, int index){
         if(node != null){
-            arr[index] = node.val;
+            arr[index] = node.value;
             lot(node.right,arr,2*index+1);
             lot(node.left,arr,2*(index + 1));
         }
@@ -23,17 +25,17 @@ public class Traversal{
                 String[] paths = new String[left.length + right.length];
 
                 for(int i = 0; i < left.length;i++){
-                    paths[i] = root.val + left[i];
+                    paths[i] = root.value + left[i];
                 }
 
                 for(int i = 0; i < right.length;i++){
-                    paths[left.length + i] = root.val + right[i];
+                    paths[left.length + i] = root.value + right[i];
                 }
 
                 return paths;
             } else{
                 //it is a leaf
-                return new String[]{String.valueOf(root.val)};
+                return new String[]{String.valueOf(root.value)};
             }
         }
 
@@ -99,7 +101,7 @@ public class Traversal{
             }
 
             current = nodes.pop();
-            res += current.val;
+            res += current.value;
             current = current.right;
 
         }
@@ -127,17 +129,17 @@ public class Traversal{
         }
     }
 
-    public boolean isBST2(TreeNode root){
-        return isBSTMax(root, 0 , Integer.MAX_VALUE) ;
+    public <T extends  Comparable<T>,K> boolean isBST2(TreeNode<T,K> root){
+        return isBSTMax(root, null , null) ;
     }
 
-    private boolean isBSTMax(TreeNode root, int min, int max){
+    private <T extends  Comparable<T>,K> boolean isBSTMax(TreeNode<T,K> root, T min, T max){
         if(root == null)
             return true;
         else {
-            boolean isBST = (root.val > min) && (root.val < max);
-            isBST &= isBSTMax(root.left, min, root.val);
-            isBST &= isBSTMax(root.right,root.val, max);
+            boolean isBST = (min == null || root.key.compareTo(min) > 0) && (max == null || (root.key.compareTo(max) < 0));
+            isBST &= isBSTMax(root.left, min, root.key);
+            isBST &= isBSTMax(root.right,root.key, max);
 
             return isBST;
         }
@@ -151,10 +153,10 @@ public class Traversal{
         return isAsc(values);
     }
 
-    public void inOrderTraversal(TreeNode root, ArrayList<Integer> values){
+    public <T extends Comparable<T>,K> void inOrderTraversal(TreeNode<T,K> root, ArrayList<K> values){
         if(root != null){
             inOrderTraversal(root.left,values);
-            values.add(root.val);
+            values.add(root.value);
             inOrderTraversal(root.right,values);
         }
     }

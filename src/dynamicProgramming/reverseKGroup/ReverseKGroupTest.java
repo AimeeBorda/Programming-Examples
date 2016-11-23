@@ -27,7 +27,7 @@ public class ReverseKGroupTest {
         third.next = fourth;
         fourth.next = fifth;
 
-        assertEquals("[1,2,3,4,5] with 2 -> [2,1,4,3,5]", "[2,1,3,4,5]", rev.toString(rev.reverseGroup(head, 2)));
+        assertEquals("[1,2,3,4,5] with 2 -> [2,1,4,3,5]", "[2,1,4,3,5]", rev.toString(rev.reverseKGroup(head, 2)));
 
     }
 
@@ -69,7 +69,7 @@ public class ReverseKGroupTest {
             }
         }
 
-        assertEquals("[1,2,3,4,5] with 3 -> [3,2,1,4,5]", "[3,2,1,4,5]", rev.toString(rev.reverseGroup(nodes[0], 3)));
+        assertEquals("[1,2,3,4,5] with 3 -> [3,2,1,4,5]", "[3,2,1,4,5]", rev.toString(rev.reverseKGroup(nodes[0], 3)));
 
     }
 

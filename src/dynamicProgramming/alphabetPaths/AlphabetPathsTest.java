@@ -22,4 +22,6 @@ public class AlphabetPathsTest {
         assertEquals("{.................VT., ....................,ABCDEFZHIXKLMNOPQRS.,..................S.,.................VT.}",0l,ap.count(new String[]{".................VT.", "....................","ABCDEFZHIXKLMNOPQRS.","..................S.",".................VT."}));
         assertEquals("{TBCDE.PQRSA, FZHIXKLMNOV}",50l,ap.count(new String[]{"TBCDE.PQRSA","FZHIXKLMNOV"}));
     }
+
+
 }
