@@ -27,6 +27,11 @@ public class RegularExpressionTest {
     }
 
     @Test
+    public void testDate(){
+        assertTrue(r.matchDate("1979-12-31 23:59:59.33"));
+        assertFalse(r.matchDate("0979-12-31 23:59:59.33"));
+    }
+    @Test
     public void testSplitNewLines(){
         assertEquals("should be empty","[hello world]",Arrays.toString(r.splitNewLine("hello world")));
         assertEquals("should be empty","[hello world, new line, , next line]",Arrays.toString(r.splitNewLine("hello world\nnew line\n\nnext line")));

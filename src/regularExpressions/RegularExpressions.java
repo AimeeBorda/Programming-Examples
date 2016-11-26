@@ -48,4 +48,8 @@ public class RegularExpressions
     private boolean notEmpty(String s){
         return s != null && !s.isEmpty();
     }
+
+    public boolean matchDate(String date) {
+        return date.matches("^[12]\\d{3}-(0[0-9]|1[0-2])-([0-2][0-9]|3[0-1]) \\d{2}:\\d{2}:\\d{2}(?:.\\d+)?$");
+    }
 }
