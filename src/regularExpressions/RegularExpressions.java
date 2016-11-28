@@ -52,4 +52,8 @@ public class RegularExpressions
     public boolean matchDate(String date) {
         return date.matches("^[12]\\d{3}-(0[0-9]|1[0-2])-([0-2][0-9]|3[0-1]) \\d{2}:\\d{2}:\\d{2}(?:.\\d+)?$");
     }
+
+    public boolean hasMatchingParanthesis(String expr){
+        return expr.replaceAll("[^()]","").replaceAll("\\(\\)","").length() == 0;
+    }
 }

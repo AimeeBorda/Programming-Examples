@@ -90,4 +90,16 @@ public class RegularExpressionTest {
         assertEquals("[hello,\"world,test\"","[hello,\"world,test\"]",Arrays.toString(r.commaSeparated("hello,\"world,test\"")));
         assertEquals("[hello,\"world,test\",\"test,another\"]","[hello,\"world,test\",\"test,another\"]",Arrays.toString(r.commaSeparated("hello,\"world,test\",\"test,another\"")));
     }
+
+
+    @Test
+    public void testMatchingBrackets(){
+        assertTrue("has matching", r.hasMatchingParanthesis(""));
+        assertTrue("has matching", r.hasMatchingParanthesis("()"));
+        assertFalse("has matching", r.hasMatchingParanthesis("(()"));
+        assertTrue("has matching", r.hasMatchingParanthesis("(C+D) (A + B)"));
+        assertFalse("has matching", r.hasMatchingParanthesis("((C+D) (A + B))("));
+        assertFalse("has matching", r.hasMatchingParanthesis("(((C+D) + E) (A + B)"));
+        assertFalse("has matching", r.hasMatchingParanthesis("(()))("));
+    }
 }
