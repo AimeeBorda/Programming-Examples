@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580c7af9-e758-4bc0-a6f2-d32a173fae69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSumTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/defects/Defects.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/defects/DefectsTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/helper/HelperTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/helper/SQLHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dynamicProgramming/MaximalNumberOfElements.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/regularExpressions/RegularExpressionTest.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/regularExpressions/RegularExpressionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/regularExpressions/RegularExpressions.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/regularExpressions/RegularExpressions.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_math3_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSetTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/alphabetPaths/AlphabetPaths.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/alphabetPaths/AlphabetPaths.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/anagramSolver/AnagramSolver.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/anagramSolver/AnagramSolver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/fibonacciSum/FibonacciSum.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/fibonacciSum/FibonacciSum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/quickSum/QuickSum.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/quickSum/QuickSum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/storeCredit/StoreCredit.class" afterPath="$PROJECT_DIR$/out/production/Programming-Examples/dynamicProgramming/storeCredit/StoreCredit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regularExpressions/RegularExpressionTest.java" afterPath="$PROJECT_DIR$/src/regularExpressions/RegularExpressionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regularExpressions/RegularExpressions.java" afterPath="$PROJECT_DIR$/src/regularExpressions/RegularExpressions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming-Examples.iml" afterPath="$PROJECT_DIR$/Programming-Examples.iml" />
     </list>
     <ignored path="Assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,25 +41,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FibonacciSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSum.java">
+      <file leaf-file-name="PolygonSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciSumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSumTest.java">
+      <file leaf-file-name="PolygonSetTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/quickSum/QuickSum.java" />
-        <option value="$PROJECT_DIR$/src/bitManipulation/mapInts/StripePainter.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/stripePainter/StripePainterTest.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/stripePainter/StripePainter.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/alienPermutation/AlienPermutationTesst.java" />
@@ -148,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/BaseBallLineUpTest.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSumTest.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSum.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSetTest.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSet.java" />
       </list>
     </option>
   </component>
@@ -156,13 +154,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState />
@@ -234,6 +225,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dynamicProgramming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polygonSet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -251,12 +264,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.37586206" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -284,85 +296,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciSumTest.test">
-    <configuration default="false" name="SwappingParenthesisTest.testIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.swappingBrackets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dynamicProgramming.swappingBrackets" />
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.swappingBrackets.SwappingParenthesisTest" />
-      <option name="METHOD_NAME" value="testIsValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwappingParenthesisTest.testSwap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.swappingBrackets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dynamicProgramming.swappingBrackets" />
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.swappingBrackets.SwappingParenthesisTest" />
-      <option name="METHOD_NAME" value="testSwap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwappingParenthesisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.swappingBrackets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dynamicProgramming.swappingBrackets" />
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.swappingBrackets.SwappingParenthesisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PolygonSetTest.testIsPolygon">
     <configuration default="false" name="FibonacciSumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -403,6 +337,84 @@
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.fibonacciSum.FibonacciSumTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PolygonSetTest.testIsPolygon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.polygonSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamicProgramming.polygonSet" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.polygonSet.PolygonSetTest" />
+      <option name="METHOD_NAME" value="testIsPolygon" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PolygonSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.polygonSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamicProgramming.polygonSet" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.polygonSet.PolygonSetTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PolygonSetTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.polygonSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamicProgramming.polygonSet" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.polygonSet.PolygonSetTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -857,19 +869,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SwappingParenthesisTest.testIsValid" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SwappingParenthesisTest.testSwap" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SwappingParenthesisTest.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest.test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PolygonSetTest.testIsPolygon" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PolygonSetTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PolygonSetTest.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest.test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SwappingParenthesisTest.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SwappingParenthesisTest.testIsValid" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SwappingParenthesisTest.testSwap" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PolygonSetTest.testIsPolygon" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PolygonSetTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PolygonSetTest.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciSumTest" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -943,44 +955,44 @@
       <workItem from="1480087414390" duration="8898000" />
       <workItem from="1480138709188" duration="8563000" />
       <workItem from="1480232169847" duration="7612000" />
-      <workItem from="1480307674350" duration="3225000" />
+      <workItem from="1480307674350" duration="6414000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FibonacciSumTest - 2016.11.28 at 06h 02m 14s.xml">
-      <configuration name="FibonacciSumTest" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest - 2016.11.28 at 07h 37m 42s.xml">
+      <configuration name="PolygonSetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest - 2016.11.28 at 06h 02m 54s.xml">
-      <configuration name="FibonacciSumTest" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_test - 2016.11.28 at 07h 31m 54s.xml">
+      <configuration name="PolygonSetTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 05h 51m 53s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_test - 2016.11.28 at 07h 32m 32s.xml">
+      <configuration name="PolygonSetTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 04m 30s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_test - 2016.11.28 at 07h 34m 15s.xml">
+      <configuration name="PolygonSetTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 04m 57s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_test - 2016.11.28 at 07h 34m 25s.xml">
+      <configuration name="PolygonSetTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 05m 30s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_test - 2016.11.28 at 07h 35m 47s.xml">
+      <configuration name="PolygonSetTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 06m 07s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_test - 2016.11.28 at 07h 37m 44s.xml">
+      <configuration name="PolygonSetTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 06m 18s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_testIsPolygon - 2016.11.28 at 07h 32m 27s.xml">
+      <configuration name="PolygonSetTest.testIsPolygon" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 07m 03s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_testIsPolygon - 2016.11.28 at 07h 36m 44s.xml">
+      <configuration name="PolygonSetTest.testIsPolygon" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciSumTest_test - 2016.11.28 at 06h 07m 37s.xml">
-      <configuration name="FibonacciSumTest.test" configurationId="JUnit" />
+    <history-entry file="PolygonSetTest_testIsPolygon - 2016.11.28 at 07h 37m 51s.xml">
+      <configuration name="PolygonSetTest.testIsPolygon" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168760000" />
+    <option name="totallyTimeSpent" value="171949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -993,7 +1005,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1013,13 +1025,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3890411" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27059773" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27059773" sideWeight="0.48654708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25444266" sideWeight="0.50547945" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27059773" sideWeight="0.5134529" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1045,7 +1057,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.49646017" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48767123" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48767123" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465753" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1053,11 +1065,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3890411" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5035398" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2673667" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27059773" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25444266" sideWeight="0.50547945" order="7" side_tool="true" content_ui="tabs" />
@@ -1254,8 +1266,14 @@
           <properties />
           <option name="timeStamp" value="290" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSet.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="291" />
+      <option name="time" value="296" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1271,22 +1289,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/alienPermutation/AlienPermutation.java" />
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/duplicates/Duplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/duplicates/DuplicatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/leetcode/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1561,11 +1563,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/fibonacciSum/FibonacciSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/polygonSet/PolygonSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1639,7 +1669,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37586206" />
               </list>
             </option>
           </splitter-proportions>
