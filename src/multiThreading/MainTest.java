@@ -28,11 +28,7 @@ public class MainTest {
 
             ps[i].start();
             cs[i].start();
-
         }
-
-        ps[0].join();
-        cs[0].join();
-        System.out.print("Dsfa");
     }
+
 }
