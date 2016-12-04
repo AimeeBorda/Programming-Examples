@@ -42,7 +42,8 @@ public class RegularExpressions
     }
 
     public String[] commaSeparated(String str){
-        return Pattern.compile(",(<! (?: \".*\")*\")").split(str);
+//        return Pattern.compile(",(?! (?: \".*\")*\")").split(str);
+        return Pattern.compile(",(?=(([^\"]*\"){2})*[^\"]*$)").split(str);
      }
 
     private boolean notEmpty(String s){

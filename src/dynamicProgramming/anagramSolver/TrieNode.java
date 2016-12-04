@@ -1,12 +1,20 @@
 package dynamicProgramming.anagramSolver;
 
-import java.util.HashSet;
+import java.util.Optional;
 
 public class TrieNode {
 
-     TrieNode[] children = new TrieNode[26];
-    HashSet<String> words = new HashSet<String>();
+    private TrieNode[] children = new TrieNode[26];
+    private String word;
 
+    public void setWord(String w){
+        if(word == null)
+            this.word = w;
+    }
+
+    public Optional<String> getWord(){
+        return Optional.ofNullable(word);
+    }
 
     public TrieNode getChild(char c) {
         int index = c - 97;
@@ -15,4 +23,14 @@ public class TrieNode {
 
         return children[index];
     }
+
+    public TrieNode lookUp(char[] path){
+        TrieNode current = this;
+        for(char c : path){
+            current = current.getChild(c);
+        }
+
+        return current;
+    }
+
 }

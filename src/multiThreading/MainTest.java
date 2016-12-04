@@ -1,5 +1,7 @@
 package multiThreading;
 
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -14,21 +16,19 @@ public class MainTest {
     public static Semaphore s = new Semaphore(BUFFER);
     public static int[] buffer = new int[BUFFER];
 
+
     public static void main(String[] args) throws Exception {
+        AtomicInteger tail = new AtomicInteger();
+        ForkJoinPool pool = new ForkJoinPool(3);
 
-        Producer p = new Producer();
-        Consumer c = new Consumer();
+        ForkJoinTask<Long> task = pool.submit(new FibonacciTask(100));
 
-        Thread[] ps = new Thread[NUM];
-        Thread[] cs = new Thread[NUM];
+        pool.shutdown();
+        System.out.println(task.get());
 
-        for(int i = 0 ; i < NUM; i++){
-            ps[i] = new Thread(p);
-            cs[i] = new Thread(c);
 
-            ps[i].start();
-            cs[i].start();
-        }
+
     }
+
 
 }

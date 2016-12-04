@@ -1,7 +1,7 @@
 package trees;
 
 
-public class TreeNode<Key extends  Comparable<Key>, Value> {
+public class TreeNode<Key extends  Comparable<Key>, Value>  {
 
     public Value value;
     public Key key;
@@ -12,5 +12,6 @@ public class TreeNode<Key extends  Comparable<Key>, Value> {
         this.key = key;
         this.value = value;
     }
+
 
 }

@@ -1,12 +1,15 @@
 package multiThreading;
 
 
+import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Consumer implements Runnable {
+public class Consumer implements Callable<String> {
 
     AtomicInteger head = new AtomicInteger();
-    public void run(){
+
+    @Override
+    public String call(){
 
         while(true){
             int h  = head.getAndIncrement();

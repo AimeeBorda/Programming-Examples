@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
-public class PrimeNumbersSubstring {
+public final class PrimeNumbersSubstring {
 
     public String findSubstring(String n){
         ArrayList<Integer> list = new ArrayList<Integer>(){{add(2); add(3);}};
@@ -30,7 +30,9 @@ public class PrimeNumbersSubstring {
 
     @Test
     public void test(){
+
         assertEquals("prime numbers find","71113",findSubstring("711"));
         assertEquals("prime numbers find","98737",findSubstring("98737"));
     }
+
 }

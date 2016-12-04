@@ -86,9 +86,10 @@ public class RegularExpressionTest {
 
     @Test
     public void testCommaSeparation(){
-        assertEquals("hello,world","[hello,world]",Arrays.toString(r.commaSeparated("hello,world")));
-        assertEquals("[hello,\"world,test\"","[hello,\"world,test\"]",Arrays.toString(r.commaSeparated("hello,\"world,test\"")));
-        assertEquals("[hello,\"world,test\",\"test,another\"]","[hello,\"world,test\",\"test,another\"]",Arrays.toString(r.commaSeparated("hello,\"world,test\",\"test,another\"")));
+        assertEquals("hello,world",2,r.commaSeparated("hello,world").length);
+        assertEquals("[hello,\"world,test\"]",2,r.commaSeparated("hello,\"world,test\"").length);
+        assertEquals("[hello,\"world,test\",goodbye]",3,r.commaSeparated("hello,\"world,test\",goodbye").length);
+        assertEquals("[hello,\"world,test\",\"test,another\"]",3,r.commaSeparated("hello,\"world,test\",\"test,another\"").length);
     }
 
 
