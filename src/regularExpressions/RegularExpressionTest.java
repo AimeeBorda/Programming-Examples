@@ -103,4 +103,17 @@ public class RegularExpressionTest {
         assertFalse("has matching", r.hasMatchingParanthesis("(((C+D) + E) (A + B)"));
         assertFalse("has matching", r.hasMatchingParanthesis("(()))("));
     }
+
+    @Test
+    public void testIsPassword(){
+        assertFalse("isPassword", r.isPassword("123456"));
+        assertFalse("isPassword", r.isPassword("abcdefgksadfjd"));
+        assertTrue("isPassword", r.isPassword("abcdefg12"));
+        assertTrue("isPassword", r.isPassword("12abcdefg"));
+        assertTrue("isPassword", r.isPassword("123456789"));
+        assertTrue("isPassword", r.isPassword("12345678"));
+        assertFalse("isPassword", r.isPassword("123456789#"));
+        assertFalse("isPassword", r.isPassword("1234?56789"));
+        assertTrue("isPassword", r.isPassword("123A56B89"));
+    }
 }

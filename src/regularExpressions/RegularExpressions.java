@@ -57,4 +57,9 @@ public class RegularExpressions
     public boolean hasMatchingParanthesis(String expr){
         return expr.replaceAll("[^()]","").replaceAll("\\(\\)","").length() == 0;
     }
+
+    //has at least 8 characters 2 of which must be numbers
+    public boolean isPassword(String pw){
+        return Pattern.compile("([a-zA-Z](?=.*\\d.*\\d)|[0-9](?=.*\\d))(?=\\w{7,}$)").matcher(pw).find();
+    }
 }
