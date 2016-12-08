@@ -16,20 +16,55 @@ public class SplayTree<Key extends Comparable<Key>,Val> {
     }
 
     public void insert(Key k, Val v){
-        root = insert(k,v,root);
+        TreeNode[] nodes =split(k);
+        root = new TreeNode(k, v,nodes[0],nodes[1]);
     }
 
-    private TreeNode insert(Key k, Val v, TreeNode node) {
-        return node;
+    private TreeNode splay(Key k,  TreeNode gp, TreeNode parent, TreeNode node){
+        if(node !=null){
+            if(node.key.compareTo(k) < 0) {
+                gp = splay(k, parent,node, node.right);
+                return splayOperation(gp, node, node.right);
+            }else if(node.key.compareTo(k) > 0) {
+                gp = splay(k, parent,node, node.left);
+                return splayOperation(gp, node, node.left);
+            } else {
+                return splayOperation(gp, parent, node);
+            }
+        }
+
+        return null;
     }
 
-    private TreeNode splay(TreeNode current, TreeNode root){
+    private TreeNode splayOperation(TreeNode gp, TreeNode parent, TreeNode node) {
+        //7 cases (3 mirroring cases for left and right) & node is already root
+        if(parent == null)
+            return node;
+        else if(parent.left.key.compareTo(node.key) == 0){
+            //3 cases
+            if(gp == null){
 
-        return root;
+            }else if(gp.left.key.compareTo(parent.key) == 0){
+
+            }else { //if(gp.right.key.compareTo(parent.key) == 0)
+
+            }
+        }else { //if(parent.right.key.compareTo(node.key) == 0)
+            //3 cases
+            if(gp == null){
+
+            }else if(gp.right.key.compareTo(parent.key) == 0){
+
+            }else { //if(gp.left.key.compareTo(parent.key) == 0)
+            }
+        }
+
+        return null;
     }
+
 
     public void splay(Key k){
-        root = splay(find(k),root);
+        root = splay(k,null, null, root);
     }
 
     private TreeNode find(Key k) {
@@ -37,14 +72,16 @@ public class SplayTree<Key extends Comparable<Key>,Val> {
     }
 
     private TreeNode find(Key k, TreeNode node) {
-        if(isEmpty(node))
-            return null;
-        else if(node.key.compareTo(k) < 0)
-            return find(k, node.right);
-        else if(node.key.compareTo(k) > 0)
-            return find(k, node.left);
-        else //if(node.key.compareTo(k) == 0)
-            return node;
+        while(!isEmpty(node)){
+            if(node.key.compareTo(k) < 0)
+                node = node.right;
+            else if(node.key.compareTo(k) > 0)
+                node = node.left;
+            else //if(node.key.compareTo(k) == 0)
+                return node;
+        }
+
+        return null;
     }
 
     public void delete(Key k){
@@ -55,13 +92,13 @@ public class SplayTree<Key extends Comparable<Key>,Val> {
     }
 
     private TreeNode join(TreeNode left, TreeNode right) {
-        left = splay(max(left),left);
+        left = splay(max(left).key,null,null,left);
         if(!isEmpty())
             left.right = right;
         return left;
     }
 
-    private TreeNode max(TreeNode node){
+    private TreeNode<Key,Val> max(TreeNode node){
         while(node.right != null){
             node = node.right;
         }

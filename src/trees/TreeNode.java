@@ -9,9 +9,13 @@ public class TreeNode<Key extends  Comparable<Key>, Value>  {
     public TreeNode<Key,Value> right;
 
     public TreeNode(Key key, Value value){
-        this.key = key;
-        this.value = value;
+        this(key, value, null, null);
     }
 
-
+    public TreeNode(Key key, Value value, TreeNode left, TreeNode right){
+        this.key = key;
+        this.value = value;
+        this.left = left;
+        this.right = right;
+    }
 }

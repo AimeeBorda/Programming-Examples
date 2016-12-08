@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580c7af9-e758-4bc0-a6f2-d32a173fae69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees/splayTree/SplayTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/trees/TreeNode.java" afterPath="$PROJECT_DIR$/src/trees/TreeNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/trees/splayTree/SplayTree.java" afterPath="$PROJECT_DIR$/src/trees/splayTree/SplayTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java" afterPath="$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java" />
     </list>
     <ignored path="Assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,33 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplayTree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SplayTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="801">
+              <caret line="94" column="21" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
               <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="method#find#1;class#SplayTree#0" expanded="false" />
+                <element signature="e#1778#1779#0" expanded="true" />
+                <element signature="e#1826#1827#0" expanded="true" />
+                <element signature="method#max#0;class#SplayTree#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SplayTreeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SplayTreeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,9 +83,12 @@
       <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +120,7 @@
       <find>is</find>
       <find>insert</find>
       <find>recInsert</find>
+      <find>splay</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/dynamicProgramming/fibonacci</dir>
@@ -141,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees/BTree/BTreeTest.java" />
         <option value="$PROJECT_DIR$/src/trees/BTree/BTree.java" />
         <option value="$PROJECT_DIR$/src/helper/HelperTest.java" />
         <option value="$PROJECT_DIR$/src/helper/SQLHelper.java" />
@@ -174,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/dynamicProgramming/PrimeNumbersSubstring.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/primeNumbers/PrimeNumbersSubstring.java" />
         <option value="$PROJECT_DIR$/src/multiThreading/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/trees/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/trees/levelOrderTraversal/Traversal.java" />
         <option value="$PROJECT_DIR$/src/multiThreading/ThreadTask.java" />
         <option value="$PROJECT_DIR$/src/multiThreading/FibonacciTask.java" />
@@ -191,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/regularExpressions/Quine.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
+        <option value="$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/trees/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/trees/splayTree/SplayTree.java" />
       </list>
     </option>
@@ -1023,7 +1019,7 @@
       <workItem from="1481177798297" duration="775000" />
       <workItem from="1481191751349" duration="496000" />
       <workItem from="1481205547850" duration="164000" />
-      <workItem from="1481207579085" duration="7976000" />
+      <workItem from="1481207579085" duration="9419000" />
     </task>
     <servers />
   </component>
@@ -1060,7 +1056,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223572000" />
+    <option name="totallyTimeSpent" value="225015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1365,7 +1361,7 @@
           <option name="timeStamp" value="302" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="331" />
+      <option name="time" value="335" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1626,39 +1622,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="801">
+          <caret line="94" column="21" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
           <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="method#find#1;class#SplayTree#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="method#max#0;class#SplayTree#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
