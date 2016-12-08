@@ -3,19 +3,13 @@ package dynamicProgramming.sudoku;
 
 import java.util.Arrays;
 import java.util.BitSet;
-import java.util.concurrent.*;
 
-public class SudokuSolver extends RecursiveAction{
+public class SudokuSolver{
 
     private final int SIZE = 9 ;
-    private BitSet[][] poss;
 
-    public SudokuSolver(BitSet[][] poss){
-        this.poss = poss;
-    }
-
-    public SudokuSolver(){
-        poss = new BitSet[SIZE][SIZE];
+    public byte[][] solveSudoku(byte[][] board){
+        BitSet[][] poss = new BitSet[SIZE][SIZE];
 
         for(byte row = 0; row < SIZE; row++) {
             for (byte col = 0; col < SIZE; col++) {
@@ -24,25 +18,23 @@ public class SudokuSolver extends RecursiveAction{
 
             }
         }
+        return solveSudoku(board, poss);
     }
 
-    public byte[][] solveSudoku(byte[][] board) {
+
+    public byte[][] solveSudoku(byte[][] board, BitSet[][] poss) {
 
         for(byte row = 0; row < SIZE; row++){
             for(byte col = 0; col < SIZE; col++){
 
                 if(board[row][col] != 0)
-                    insert(poss, row, col, board[row][col]);
+                    insert(poss, row, col, (byte) (board[row][col] - 1));
             }
         }
 
-        ForkJoinPool pool = new ForkJoinPool();
 
-        BitSet[][] res = poss.clone();
-        pool.invoke(new SudokuSolver(res));
 
-        pool.shutdown();
-        return getAndPrintBoard(res);
+        return getAndPrintBoard(solveBackTracking(poss));
 
     }
 
@@ -61,22 +53,35 @@ public class SudokuSolver extends RecursiveAction{
         return board;
     }
 
-    @Override
-    public void compute(){
+
+    public BitSet[][] solveBackTracking(BitSet[][] poss){
+
+
         if(!isSolved(poss)) {
-            for (int row = 0; row < SIZE; row++) {
-                for (int col = 0; col < SIZE; col++) {
+
+
+            for (byte row = 0; row < SIZE; row++) {
+                for (byte col = 0; col < SIZE; col++) {
                     if (poss[row][col].cardinality() > 1) {
-                        for (int i = poss[row][col].nextSetBit(0); i >= 0; i = poss[row][col].nextSetBit(i + 1)) {
+                        byte i = -1;
+
+                        while((i = (byte)poss[row][col].nextSetBit(i+1)) >= 0){
                             BitSet[][] possC = poss.clone();
-                            if (insert(possC, row, col, (short) (SIZE - i))) {
-                                invokeAll(new SudokuSolver(possC));
-                            }
+                            System.out.print("trying "+i +" in "+row+" "+col);
+                            insert(possC, row, col,  i);
+                            System.out.println(" and now back-tracking");
+
+                            if(isSolved(solveBackTracking(possC)))
+                                return possC;
                         }
+
+
                     }
                 }
             }
         }
+
+        return poss;
     }
     private boolean isSolved(BitSet[][] board){
 
@@ -93,32 +98,36 @@ public class SudokuSolver extends RecursiveAction{
         Arrays.stream(board).forEach(r-> System.out.println(Arrays.toString(r)));
     }
 
-    private boolean insert(BitSet[][] possibilities,  int row, int col, short val){
-        boolean res = true;
-        possibilities[row][col].clear(0,SIZE);
+    private boolean insert(BitSet[][] possibilities,  byte row, byte col, byte val){
+        boolean res = possibilities[row][col].cardinality() > 0 && possibilities[row][col].get(val);
 
+        possibilities[row][col].clear(0,SIZE);
+        possibilities[row][col].set(val);
 
         for(byte i = 0 ; i < SIZE; i++){
-            res &= clearPossibility(possibilities, i, col, val);
-            res &= clearPossibility(possibilities, row, i, val);
-            res &= clearPossibility(possibilities, 3*(row/3) + (i/3), 3*(col/3) + (i%3), val);
+            clearPossibility(possibilities, i, col, val, row, col);
+            clearPossibility(possibilities, row, i, val, row, col);
+            clearPossibility(possibilities, (byte)(3*(row/3) + (i/3)),(byte) (3*(col/3) + (i%3)), val, row, col);
          }
 
-        possibilities[row][col].set(val);
+
 
         return res;
     }
 
-    private boolean clearPossibility(BitSet[][] possibilities, int row, int col, short val) {
-        boolean res = !possibilities[row][col].get(val);
-        possibilities[row][col].clear(val);
-
-        //if only one possibility remains - add it to the board and restart process.
-        if (possibilities[row][col].cardinality() == 1) {
-            res &= insert(possibilities, row, col, (short) (SIZE - possibilities[row][col].nextSetBit(0)));
+    private void clearPossibility(BitSet[][] possibilities, byte row, byte col, byte val, byte cellR, byte cellC) {
+        if(row != cellR && col != cellC) {
+            try {
+                possibilities[row][col].clear(val);
+            }catch(StackOverflowError e){
+                System.out.println(row +" "+col+" "+val+" "+ cellR+" "+cellC+" "+val);
+            }
+            //if only one possibility remains - add it to the board and restart process.
+            if (possibilities[row][col].cardinality() == 1) {
+                insert(possibilities, row, col, (byte) possibilities[row][col].nextSetBit(0));
+            }
         }
 
-        return res;
     }
 
 
