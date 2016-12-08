@@ -17,7 +17,7 @@ public class SplayTree<Key extends Comparable<Key>,Val> {
 
     public void insert(Key k, Val v){
         TreeNode[] nodes =split(k);
-        root = new TreeNode(k, v,nodes[0],nodes[1]);
+        root = new TreeNode(k, v, nodes[0],nodes[1]);
     }
 
     private TreeNode splay(Key k,  TreeNode gp, TreeNode parent, TreeNode node){
@@ -62,29 +62,20 @@ public class SplayTree<Key extends Comparable<Key>,Val> {
         return null;
     }
 
-
     public void splay(Key k){
         root = splay(k,null, null, root);
     }
 
     private TreeNode find(Key k) {
-        return find(k, root);
+
+        splay(k);
+        if(!isEmpty() && root.key == k)
+            return root;
+        else
+            return null;
     }
 
-    private TreeNode find(Key k, TreeNode node) {
-        while(!isEmpty(node)){
-            if(node.key.compareTo(k) < 0)
-                node = node.right;
-            else if(node.key.compareTo(k) > 0)
-                node = node.left;
-            else //if(node.key.compareTo(k) == 0)
-                return node;
-        }
-
-        return null;
-    }
-
-    public void delete(Key k){
+   public void delete(Key k){
         splay(k);
         if(!isEmpty(root)) {
             root = join(root.left, root.right);
@@ -109,5 +100,21 @@ public class SplayTree<Key extends Comparable<Key>,Val> {
     private TreeNode[] split(Key k){
         splay(k);
         return new TreeNode[]{root.left, root.right};
+    }
+
+    public Key getRoot(){
+        return isEmpty() ? null : (Key) root.key;
+    }
+
+    @Override
+    public String toString(){
+        return toString(root);
+    }
+
+    private String toString(TreeNode node) {
+        if(node != null)
+            return toString(node.left) +" (" +node.key+", "+node.value +") "+toString(node.right);
+        else
+            return "";
     }
 }
