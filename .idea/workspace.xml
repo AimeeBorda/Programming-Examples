@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580c7af9-e758-4bc0-a6f2-d32a173fae69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees/splayTree/SplayTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,28 +37,63 @@
       <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1010">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#solveSudoku#0;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#solveSudoku#1;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#clone#0;class#SudokuSolver#0" expanded="false" />
                 <element signature="method#transform#0;class#SudokuSolver#0" expanded="false" />
                 <element signature="method#getAndPrintBoard#0;class#SudokuSolver#0" expanded="false" />
                 <element signature="method#isSolved#0;class#SudokuSolver#0" expanded="false" />
                 <element signature="method#recInsert#0;class#SudokuSolver#0" expanded="false" />
                 <element signature="method#recInsert#1;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#insert#0;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#removePoss#0;class#SudokuSolver#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuSolverTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
+      <file leaf-file-name="SplayTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="method#find#1;class#SplayTree#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplayTreeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees/BTree/BNode.java" />
         <option value="$PROJECT_DIR$/src/trees/BTree/BTreeTest.java" />
         <option value="$PROJECT_DIR$/src/trees/BTree/BTree.java" />
         <option value="$PROJECT_DIR$/src/helper/HelperTest.java" />
@@ -156,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/regularExpressions/Quine.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
+        <option value="$PROJECT_DIR$/src/trees/splayTree/SplayTree.java" />
       </list>
     </option>
   </component>
@@ -243,26 +279,12 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programming-Examples" />
+              <option name="myItemId" value="trees" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamicProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sudoku" />
+              <option name="myItemId" value="splayTree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,10 +299,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamicProgramming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1005,7 +1023,7 @@
       <workItem from="1481177798297" duration="775000" />
       <workItem from="1481191751349" duration="496000" />
       <workItem from="1481205547850" duration="164000" />
-      <workItem from="1481207579085" duration="6655000" />
+      <workItem from="1481207579085" duration="7976000" />
     </task>
     <servers />
   </component>
@@ -1042,7 +1060,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222251000" />
+    <option name="totallyTimeSpent" value="223572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,7 +1086,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.49646017" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48767123" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48767123" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465753" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1078,7 +1096,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41917807" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2197092" sideWeight="0.4808219" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.4808219" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746365" sideWeight="0.5191781" order="4" side_tool="true" content_ui="tabs" />
@@ -1347,7 +1365,7 @@
           <option name="timeStamp" value="302" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="330" />
+      <option name="time" value="331" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1356,8 +1374,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/maths/aToughGame/AToughGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/defects/Defects.java" />
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/defects/DefectsTest.java" />
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/badNeighbours/BadNeighbourTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1421,13 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1587,28 +1596,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1010">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="975">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#solveSudoku#0;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#solveSudoku#1;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#clone#0;class#SudokuSolver#0" expanded="false" />
             <element signature="method#transform#0;class#SudokuSolver#0" expanded="false" />
             <element signature="method#getAndPrintBoard#0;class#SudokuSolver#0" expanded="false" />
             <element signature="method#isSolved#0;class#SudokuSolver#0" expanded="false" />
             <element signature="method#recInsert#0;class#SudokuSolver#0" expanded="false" />
             <element signature="method#recInsert#1;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#insert#0;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#removePoss#0;class#SudokuSolver#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/trees/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="method#find#1;class#SplayTree#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/splayTree/SplayTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
