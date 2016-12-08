@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580c7af9-e758-4bc0-a6f2-d32a173fae69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
     </list>
     <ignored path="Assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,25 +33,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="49" lean-forward="false" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+            <state relative-caret-position="98">
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getAndPrintBoard#0;class#SudokuSolver#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuSolverTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SudokuSolverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="177">
+              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +79,9 @@
       <find>merge</find>
       <find>9</find>
       <find>recIn</find>
+      <find>isSolv</find>
+      <find>System.</find>
+      <find>is</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/dynamicProgramming/fibonacci</dir>
@@ -140,11 +144,11 @@
         <option value="$PROJECT_DIR$/src/dynamicProgramming/anagramSolver/AnagramSolver.java" />
         <option value="$PROJECT_DIR$/src/multiThreading/MainTest.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/BoardBuilder.java" />
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
         <option value="$PROJECT_DIR$/src/regularExpressions/RegularExpressions.java" />
         <option value="$PROJECT_DIR$/src/regularExpressions/RegularExpressionTest.java" />
         <option value="$PROJECT_DIR$/src/regularExpressions/Quine.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
       </list>
     </option>
   </component>
@@ -321,7 +325,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SudokuSolverTest.testBoard1">
+  <component name="RunManager" selected="JUnit.SudokuSolverTest.testBoard2">
     <configuration default="false" name="SudokuSolverTest.testBoard1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -348,73 +352,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SudokuSolverTest.testRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dynamicProgramming.sudoku.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="dynamicProgramming.sudoku" />
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.sudoku.SudokuSolverTest" />
-      <option name="METHOD_NAME" value="testRegex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegularExpressionTest.testIsPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="regularExpressions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programming-Examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="regularExpressions" />
-      <option name="MAIN_CLASS_NAME" value="regularExpressions.RegularExpressionTest" />
-      <option name="METHOD_NAME" value="testIsPassword" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Quine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Quine" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Programming-Examples" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Quine (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -433,6 +370,84 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Programming-Examples" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SudokuSolverTest.testBoard2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamicProgramming.sudoku" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.sudoku.SudokuSolverTest" />
+      <option name="METHOD_NAME" value="testBoard2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SudokuSolverTest.testIsSolved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamicProgramming.sudoku" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.sudoku.SudokuSolverTest" />
+      <option name="METHOD_NAME" value="testIsSolved" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SudokuSolverTest.testTransform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programming-Examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="dynamicProgramming.sudoku" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.sudoku.SudokuSolverTest" />
+      <option name="METHOD_NAME" value="testTransform" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -878,18 +893,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testBoard1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testRegex" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RegularExpressionTest.testIsPassword" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Quine" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Quine (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Quine (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testBoard2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testIsSolved" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testTransform" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testBoard1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Quine (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Quine" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RegularExpressionTest.testIsPassword" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testRegex" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testBoard2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testTransform" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testIsSolved" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SudokuSolverTest.testBoard1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Quine (1)" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -983,44 +998,44 @@
       <workItem from="1481177798297" duration="775000" />
       <workItem from="1481191751349" duration="496000" />
       <workItem from="1481205547850" duration="164000" />
-      <workItem from="1481207579085" duration="2820000" />
+      <workItem from="1481207579085" duration="4609000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 03m 07s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 50m 45s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 04m 50s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 53m 51s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 05m 52s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 54m 06s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 08m 18s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 54m 27s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 10m 11s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 54m 41s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 15m 33s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 55m 20s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 16m 39s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 55m 55s.xml">
+      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 20m 09s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testTransform - 2016.12.08 at 15h 51m 03s.xml">
+      <configuration name="SudokuSolverTest.testTransform" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 20m 26s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testTransform - 2016.12.08 at 15h 51m 40s.xml">
+      <configuration name="SudokuSolverTest.testTransform" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testBoard1 - 2016.12.08 at 15h 21m 29s.xml">
-      <configuration name="SudokuSolverTest.testBoard1" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testTransform - 2016.12.08 at 15h 55m 59s.xml">
+      <configuration name="SudokuSolverTest.testTransform" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218416000" />
+    <option name="totallyTimeSpent" value="220205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1046,12 +1061,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.5072698" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41917807" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41917807" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.4808219" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2197092" sideWeight="0.4808219" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.49646017" order="1" side_tool="false" content_ui="tabs" />
@@ -1318,6 +1333,24 @@
           <properties />
           <option name="timeStamp" value="304" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/inheritance/A.java</url>
           <line>13</line>
@@ -1325,7 +1358,7 @@
           <option name="timeStamp" value="302" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="315" />
+      <option name="time" value="324" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1565,21 +1598,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="98">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="49" lean-forward="false" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        <state relative-caret-position="177">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getAndPrintBoard#0;class#SudokuSolver#0" expanded="false" />
           </folding>
         </state>
       </provider>

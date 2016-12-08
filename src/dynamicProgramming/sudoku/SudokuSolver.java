@@ -11,9 +11,17 @@ public class SudokuSolver{
     private final int SIZE = 9 ;
 
     public byte[][] solveSudoku(byte[][] board){
-        BitSet[][] poss = new BitSet[SIZE][SIZE];
 
         List<Byte> values = new ArrayList<>();
+
+        BitSet[][] poss = transform(board, values);
+
+        return recInsert(poss, values) ? getAndPrintBoard(solveSudoku(poss)) : null;
+    }
+
+    public BitSet[][] transform(byte[][] board, List<Byte> values) {
+        BitSet[][] poss = new BitSet[SIZE][SIZE];
+
         for(byte row = 0; row < SIZE; row++) {
             for (byte col = 0; col < SIZE; col++) {
                 poss[row][col] = new BitSet(SIZE);
@@ -22,7 +30,9 @@ public class SudokuSolver{
                 if(board[row][col] > 0){
                     poss[row][col].clear();
                     poss[row][col].set((byte) (board[row][col] - 1));
-                    values.add((byte) (row* SIZE + col));
+
+                    if(values != null)
+                        values.add((byte) (row* SIZE + col));
                 }else{
                     poss[row][col].set(0,SIZE,true);
                 }
@@ -30,8 +40,7 @@ public class SudokuSolver{
             }
         }
 
-        recInsert(poss, values);
-        return getAndPrintBoard(solveSudoku(poss));
+        return poss;
     }
 
     private boolean recInsert(BitSet[][] poss, byte val, byte row, byte col){
@@ -102,15 +111,27 @@ public class SudokuSolver{
     }
 
 
-    private boolean isSolved(BitSet[][] board){
+    public boolean isSolved(BitSet[][] poss){
 
-        for(BitSet[] r : board) {
-            for (BitSet c : r) {
-                if (c.cardinality() != 1)
+        for(byte r = 0 ; r < SIZE; r++){
+            for(byte c = 0 ; c < SIZE; c++){
+                if(poss[r][c].cardinality() > 1)
                     return false;
+                else {
+                    for (byte i = 0; i < SIZE; i++) {
+                        byte b = (byte) (3 * (c / 3) + (i % 3));
+                        byte b1 = (byte) (3 * (r / 3) + (i / 3));
+                        if ((i != c && poss[r][i].nextSetBit(0) == poss[r][c].nextSetBit(0))
+                            || (i != r && poss[i][c].nextSetBit(0) == poss[r][c].nextSetBit(0))
+                            || ((r!= b1 || c!= b) && poss[b1][b].nextSetBit(0) == poss[r][c].nextSetBit(0)))
+                            return false;
+                    }
+                }
             }
         }
+
         return true;
+
     }
 
     private boolean insert(BitSet[][] poss,  byte row, byte col, List<Byte> values){
@@ -123,16 +144,13 @@ public class SudokuSolver{
 
     private boolean insert(BitSet[][] possibilities,  byte row, byte col, byte val, List<Byte> values){
         if(possibilities[row][col].cardinality() > 0 && possibilities[row][col].get(val)) {
-
             possibilities[row][col].clear();
             possibilities[row][col].set(val);
 
             for (byte i = 0; i < SIZE; i++) {
                 removePoss(possibilities, i, col, val, row, col,values);
                 removePoss(possibilities, row, i, val, row, col,values);
-                byte r = (byte) (3 * (row / 3) + (i / 3));
-                byte c = (byte) (3 * (col / 3) + (i % 3));
-                removePoss(possibilities, r, c, val, row, col,values);
+                removePoss(possibilities, (byte) (3 * (row / 3) + (i / 3)), (byte) (3 * (col / 3) + (i % 3)), val, row, col,values);
             }
 
             return true;
@@ -142,14 +160,16 @@ public class SudokuSolver{
     }
 
     private void removePoss(BitSet[][] poss, byte row, byte col, byte val, byte origRow, byte origCol, List<Byte> values){
-        if(row != origRow && col != origCol && poss[row][col].get(val)) {
+        if((row != origRow || col != origCol) && poss[row][col].get(val)) {
 
             poss[row][col].clear(val);
 
             if (poss[row][col].cardinality() == 1) {
                 values.add((byte)(row*SIZE + col));
             }
+
         }
+
     }
 
 }
