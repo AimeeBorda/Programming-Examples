@@ -36,10 +36,15 @@
       <file leaf-file-name="SudokuSolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="-1010">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#transform#0;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#getAndPrintBoard#0;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#isSolved#0;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#recInsert#0;class#SudokuSolver#0" expanded="false" />
+                <element signature="method#recInsert#1;class#SudokuSolver#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,8 +53,8 @@
       <file leaf-file-name="SudokuSolverTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="227">
+              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,6 +87,8 @@
       <find>isSolv</find>
       <find>System.</find>
       <find>is</find>
+      <find>insert</find>
+      <find>recInsert</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/dynamicProgramming/fibonacci</dir>
@@ -147,8 +154,8 @@
         <option value="$PROJECT_DIR$/src/regularExpressions/RegularExpressions.java" />
         <option value="$PROJECT_DIR$/src/regularExpressions/RegularExpressionTest.java" />
         <option value="$PROJECT_DIR$/src/regularExpressions/Quine.java" />
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java" />
       </list>
     </option>
   </component>
@@ -998,22 +1005,28 @@
       <workItem from="1481177798297" duration="775000" />
       <workItem from="1481191751349" duration="496000" />
       <workItem from="1481205547850" duration="164000" />
-      <workItem from="1481207579085" duration="4609000" />
+      <workItem from="1481207579085" duration="6655000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 50m 45s.xml">
-      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testBoard2 - 2016.12.08 at 15h 56m 03s.xml">
+      <configuration name="SudokuSolverTest.testBoard2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 53m 51s.xml">
-      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testBoard2 - 2016.12.08 at 15h 57m 56s.xml">
+      <configuration name="SudokuSolverTest.testBoard2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 54m 06s.xml">
-      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testBoard2 - 2016.12.08 at 17h 25m 57s.xml">
+      <configuration name="SudokuSolverTest.testBoard2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 54m 27s.xml">
-      <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
+    <history-entry file="SudokuSolverTest_testBoard2 - 2016.12.08 at 17h 29m 08s.xml">
+      <configuration name="SudokuSolverTest.testBoard2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTest_testBoard2 - 2016.12.08 at 17h 31m 41s.xml">
+      <configuration name="SudokuSolverTest.testBoard2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SudokuSolverTest_testBoard2 - 2016.12.08 at 17h 41m 50s.xml">
+      <configuration name="SudokuSolverTest.testBoard2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 54m 41s.xml">
       <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
@@ -1024,18 +1037,12 @@
     <history-entry file="SudokuSolverTest_testIsSolved - 2016.12.08 at 15h 55m 55s.xml">
       <configuration name="SudokuSolverTest.testIsSolved" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SudokuSolverTest_testTransform - 2016.12.08 at 15h 51m 03s.xml">
-      <configuration name="SudokuSolverTest.testTransform" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SudokuSolverTest_testTransform - 2016.12.08 at 15h 51m 40s.xml">
-      <configuration name="SudokuSolverTest.testTransform" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SudokuSolverTest_testTransform - 2016.12.08 at 15h 55m 59s.xml">
       <configuration name="SudokuSolverTest.testTransform" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220205000" />
+    <option name="totallyTimeSpent" value="222251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1051,29 +1058,30 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.5072698" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.49646017" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48767123" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465753" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.5072698" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41917807" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41917807" sideWeight="0.4927302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2197092" sideWeight="0.4808219" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.49646017" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746365" sideWeight="0.5191781" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48767123" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1081,7 +1089,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5035398" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1333,24 +1340,6 @@
           <properties />
           <option name="timeStamp" value="304" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="317" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="320" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java</url>
-          <line>126</line>
-          <properties />
-          <option name="timeStamp" value="322" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/inheritance/A.java</url>
           <line>13</line>
@@ -1358,7 +1347,7 @@
           <option name="timeStamp" value="302" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="324" />
+      <option name="time" value="330" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1600,18 +1589,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="-1010">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#transform#0;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#getAndPrintBoard#0;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#isSolved#0;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#recInsert#0;class#SudokuSolver#0" expanded="false" />
+            <element signature="method#recInsert#1;class#SudokuSolver#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/sudoku/SudokuSolverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="227">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

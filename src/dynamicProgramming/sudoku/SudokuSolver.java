@@ -16,7 +16,47 @@ public class SudokuSolver{
 
         BitSet[][] poss = transform(board, values);
 
-        return recInsert(poss, values) ? getAndPrintBoard(solveSudoku(poss)) : null;
+        poss = recInsert(poss, values) ? solveSudoku(poss) : null;
+
+        return getAndPrintBoard(poss);
+    }
+
+    private BitSet[][] solveSudoku(BitSet[][] poss) {
+
+        if(!isSolved(poss)) {
+
+            for (byte row = 0; row < SIZE; row++) {
+                for (byte col = 0; col < SIZE; col++) {
+
+                    if (poss[row][col].cardinality() > 1) {
+                        //next empty cell and try all combinations
+                        for (byte i = (byte) poss[row][col].nextSetBit(0); i >= 0; i = (byte) poss[row][col].nextSetBit(i + 1)) {
+                            BitSet[][] possC = clone(poss);
+                            if(recInsert(possC, i, row, col) && (possC = solveSudoku(possC)) != null)
+                                return possC;
+                        }
+                        return null;
+                    }
+                }
+            }
+
+            return null;
+        }
+
+        return poss;
+
+    }
+
+    private BitSet[][] clone(BitSet[][] poss){
+        BitSet[][] res = new BitSet[SIZE][SIZE];
+
+        for(int r = 0 ; r< SIZE; r++){
+            for(int c = 0 ; c < SIZE;c++){
+                res[r][c] = new BitSet(SIZE);
+                res[r][c].or(poss[r][c]);
+            }
+        }
+        return res;
     }
 
     public BitSet[][] transform(byte[][] board, List<Byte> values) {
@@ -43,73 +83,22 @@ public class SudokuSolver{
         return poss;
     }
 
-    private boolean recInsert(BitSet[][] poss, byte val, byte row, byte col){
-        poss[row][col].clear();
-        poss[row][col].set(val);
-        List<Byte> values = new ArrayList<Byte>(){{add((byte) (row*SIZE + col));}};
+    private byte[][] getAndPrintBoard(BitSet[][] poss) {
 
-        return recInsert(poss, values);
-    }
-
-    private boolean recInsert(BitSet[][] poss, List<Byte> values) {
-
-        boolean res = true;
-        while(!values.isEmpty()){
-
-            Byte[] temp = values.toArray(new Byte[]{});
-            values.clear();
-            for(Byte cell : temp){
-                res &= insert(poss,(byte)(cell / SIZE),(byte)(cell % SIZE), values);
-            }
-        }
-
-        return res;
-    }
-
-
-    public BitSet[][] solveSudoku(BitSet[][] poss) {
-
-        if(!isSolved(poss)) {
-
-            for (byte row = 0; row < SIZE; row++) {
-                for (byte col = 0; col < SIZE; col++) {
-
-                    if (poss[row][col].cardinality() > 1) {
-                        //next empty cell and try all combinations
-                        for (byte i = (byte) poss[row][col].nextSetBit(0); i >= 0; i = (byte) poss[row][col].nextSetBit(i + 1)) {
-                            BitSet[][] possC = poss.clone();
-                            if(recInsert(possC, i, row, col) && (possC = solveSudoku(possC)) != null)
-                                return possC;
-                        }
-                        return null;
+        byte[][] board = new byte[SIZE][SIZE];
+        if(poss!= null) {
+            for (int row = 0; row < SIZE; row++) {
+                for (int col = 0; col < SIZE; col++) {
+                    if (poss[row][col].cardinality() == 1) {
+                        board[row][col] = (byte) (poss[row][col].nextSetBit(0)+1);
                     }
                 }
+                System.out.println(Arrays.toString(board[row]));
             }
-
-            return null;
-        }
-
-        return poss;
-
-    }
-
-
-
-    private byte[][] getAndPrintBoard(BitSet[][] poss) {
-        byte[][] board = new byte[SIZE][SIZE];
-
-        for(int row =0 ; row < SIZE; row++){
-            for(int col = 0; col < SIZE; col++){
-                if(poss[row][col].cardinality() == 1){
-                    board[row][col] = (byte) (SIZE - poss[row][col].nextSetBit(0));
-                }
-            }
-            System.out.println(Arrays.toString(board[row]));
         }
 
         return board;
     }
-
 
     public boolean isSolved(BitSet[][] poss){
 
@@ -134,23 +123,37 @@ public class SudokuSolver{
 
     }
 
-    private boolean insert(BitSet[][] poss,  byte row, byte col, List<Byte> values){
-        if(poss[row][col].cardinality() > 0){
-             return insert(poss,row,col, (byte)poss[row][col].nextSetBit(0), values);
-        }
+    private boolean recInsert(BitSet[][] poss, byte val, byte row, byte col){
+        poss[row][col].clear();
+        poss[row][col].set(val);
+        List<Byte> values = new ArrayList<Byte>(){{add((byte) (row*SIZE + col));}};
 
-        return false;
+        return recInsert(poss, values);
     }
 
-    private boolean insert(BitSet[][] possibilities,  byte row, byte col, byte val, List<Byte> values){
-        if(possibilities[row][col].cardinality() > 0 && possibilities[row][col].get(val)) {
-            possibilities[row][col].clear();
-            possibilities[row][col].set(val);
+    private boolean recInsert(BitSet[][] poss, List<Byte> values) {
+
+        boolean res = true;
+        while(!values.isEmpty()){
+
+            Byte[] temp = values.toArray(new Byte[]{});
+            values.clear();
+            for(Byte cell : temp){
+                res &= insert(poss,(byte)(cell / SIZE),(byte)(cell % SIZE), values);
+            }
+        }
+
+        return res;
+    }
+
+    private boolean insert(BitSet[][] poss,  byte row, byte col, List<Byte> values){
+        if(poss[row][col].cardinality() == 1 ) {
+            byte val = (byte) poss[row][col].nextSetBit(0);
 
             for (byte i = 0; i < SIZE; i++) {
-                removePoss(possibilities, i, col, val, row, col,values);
-                removePoss(possibilities, row, i, val, row, col,values);
-                removePoss(possibilities, (byte) (3 * (row / 3) + (i / 3)), (byte) (3 * (col / 3) + (i % 3)), val, row, col,values);
+                removePoss(poss, i, col, val, row, col,values);
+                removePoss(poss, row, i, val, row, col,values);
+                removePoss(poss, (byte) (3 * (row / 3) + (i / 3)), (byte) (3 * (col / 3) + (i % 3)), val, row, col,values);
             }
 
             return true;

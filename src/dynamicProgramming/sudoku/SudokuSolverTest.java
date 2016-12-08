@@ -56,7 +56,12 @@ public class SudokuSolverTest {
                 {6, 7, 3, 8, 4, 9, 1, 2, 5},
                 {1, 5, 4, 7, 3, 2, 8, 9, 6},
                 {9, 8, 2, 1, 5, 6, 7, 4, 3}};
-        assertArrayEquals(expected, s.solveSudoku(board));
+
+        byte[][] res = s.solveSudoku(board);
+
+        for(int r = 0 ; r < expected.length ;r++){
+            assertArrayEquals(expected[r], res[r]);
+        }
     }
 
     @Test
