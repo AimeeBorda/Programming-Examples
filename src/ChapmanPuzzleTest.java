@@ -1,12 +1,15 @@
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.*;
+import java.net.URL;
+
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 public class ChapmanPuzzleTest {
 
+    static boolean condition = false;
     @Test
     public void testSolvableEmpty(){
         assertFalse(ChapmanPuzzle.isSolvable(null));
@@ -15,6 +18,7 @@ public class ChapmanPuzzleTest {
 
     @Test
     public void testSolvableSingle(){
+        assertFalse(condition);
         assertTrue(ChapmanPuzzle.isSolvable(new int[]{3,5}));
         assertFalse(ChapmanPuzzle.isSolvable(new int[]{5,3}));
     }
@@ -66,7 +70,29 @@ public class ChapmanPuzzleTest {
 
     @Test
     public void constructorTest() {
-        assertNotNull("Checking the constructor",sdn);
+
+
+        try {
+            URL location = ChapmanPuzzle.class.getProtectionDomain().getCodeSource().getLocation();
+
+            File file = new File(location.getFile() +"SelfDivisibleNumbers.java");
+            FileInputStream fis = new FileInputStream(file);
+            byte[] data = new byte[(int) file.length()];
+            fis.read(data);
+            fis.close();
+
+            String str = new String(data, "UTF-8");
+
+            assertFalse(str.contains("381654729"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
 
